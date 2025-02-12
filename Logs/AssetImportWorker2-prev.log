@@ -15,7 +15,7 @@ D:/GameDev Uni/GameDev-Uni-Project
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-59707
+51299
 Successfully changed project path to: D:/GameDev Uni/GameDev-Uni-Project
 D:/GameDev Uni/GameDev-Uni-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,17 +49,17 @@ D:/GameDev Uni/GameDev-Uni-Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10436]  Target information:
+Player connection [37980]  Target information:
 
-Player connection [10436]  * "[IP] 172.30.80.1 [Port] 0 [Flags] 2 [Guid] 629195398 [EditorId] 629195398 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BRNFHF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [37980]  * "[IP] 172.30.80.1 [Port] 0 [Flags] 2 [Guid] 3392439011 [EditorId] 3392439011 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BRNFHF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10436]  * "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 629195398 [EditorId] 629195398 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BRNFHF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [37980]  * "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 3392439011 [EditorId] 3392439011 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BRNFHF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10436] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10436] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [37980] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37980] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 7.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.56f1 (dd0c98481d00)
 [Subsystems] Discovering subsystems at path D:/UnityHub/Editor/2022.3.56f1/Editor/Data/Resources/UnitySubsystems
@@ -75,44 +75,44 @@ Initialize mono
 Mono path[0] = 'D:/UnityHub/Editor/2022.3.56f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityHub/Editor/2022.3.56f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityHub/Editor/2022.3.56f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityHub/Editor/2022.3.56f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002110 seconds.
-- Loaded All Assemblies, in  0.292 seconds
+Registered in 0.002714 seconds.
+- Loaded All Assemblies, in  0.343 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.248 seconds
-Domain Reload Profiling: 540ms
-	BeginReloadAssembly (97ms)
+Domain Reload Profiling: 591ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (117ms)
-		LoadAssemblies (96ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (100ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (103ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (128ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (249ms)
+	FinalizeReload (248ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (204ms)
+		SetupLoadedEditorAssemblies (199ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (144ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,50 +121,50 @@ Domain Reload Profiling: 540ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.511 seconds
+- Loaded All Assemblies, in  0.569 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.609 seconds
-Domain Reload Profiling: 1120ms
-	BeginReloadAssembly (118ms)
+- Finished resetting the current domain, in  0.593 seconds
+Domain Reload Profiling: 1162ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (27ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (327ms)
-		LoadAssemblies (245ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (297ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (126ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (115ms)
 			ScanForSourceGeneratedMonoScriptInfo (18ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (610ms)
+	FinalizeReload (594ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (458ms)
+		SetupLoadedEditorAssemblies (463ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (362ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4129 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 45 unused Assets / (130.9 KB). Loaded Objects now: 4597.
-Memory consumption went from 142.3 MB to 142.2 MB.
-Total: 3.723500 ms (FindLiveObjects: 0.261500 ms CreateObjectMapping: 0.162600 ms MarkObjects: 3.149600 ms  DeleteObjects: 0.148700 ms)
+Memory consumption went from 142.2 MB to 142.0 MB.
+Total: 3.797100 ms (FindLiveObjects: 0.225700 ms CreateObjectMapping: 0.105000 ms MarkObjects: 3.338100 ms  DeleteObjects: 0.127000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,65 +181,333 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.658 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.781 seconds
-Domain Reload Profiling: 1440ms
-	BeginReloadAssembly (395ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (252ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (198ms)
-		LoadAssemblies (255ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (781ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (594ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (469ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 3.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4117 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (102.4 KB). Loaded Objects now: 4614.
-Memory consumption went from 139.9 MB to 139.8 MB.
-Total: 4.056000 ms (FindLiveObjects: 0.304000 ms CreateObjectMapping: 0.352100 ms MarkObjects: 3.334400 ms  DeleteObjects: 0.063600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 902798.583809 seconds.
+  path: Assets/tileset/BackgroundMines.prefab
+  artifactKey: Guid(13e410efb75d19f43b64dcb171cfde87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/BackgroundMines.prefab using Guid(13e410efb75d19f43b64dcb171cfde87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26284b7d9de1222560056fcc8a8fa55e') in 0.147251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tileset/inca_back2_16.asset
+  artifactKey: Guid(7b6f34816954d5a4c9a75369a5a9eb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_16.asset using Guid(7b6f34816954d5a4c9a75369a5a9eb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ba7173773bb6706f261c898555e58e18') in 0.026735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tileset/inca_back2_19.asset
+  artifactKey: Guid(5965e19e0fc6f4a41ac15264037fc3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_19.asset using Guid(5965e19e0fc6f4a41ac15264037fc3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7f4c4423b61f81589e1a80562cad919e') in 0.017892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/tileset/inca_back2_2.asset
+  artifactKey: Guid(03194e54c44402b43bbeffc3f22f9de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_2.asset using Guid(03194e54c44402b43bbeffc3f22f9de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3e510fccd8178842992e59b229ec87d8') in 0.017259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/tileset/inca_back2_24.asset
+  artifactKey: Guid(91b72fb3186bbae41905d17e1d296fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_24.asset using Guid(91b72fb3186bbae41905d17e1d296fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68d344c0c8a97bd1b69ff73cb27c36e4') in 0.018061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/tileset/inca_back2_9.asset
+  artifactKey: Guid(0f042e9d6bd060b4bab115fc133301e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_9.asset using Guid(0f042e9d6bd060b4bab115fc133301e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ca79acc2c2bcf78f053e4385bb7da74') in 0.016897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/tileset/inca_back2_26.asset
+  artifactKey: Guid(bfc314ce408757e48b585eaf84610e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_26.asset using Guid(bfc314ce408757e48b585eaf84610e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dea6a3be926c1fe264693fbf77e74a2e') in 0.017523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/tileset/inca_back2_6.asset
+  artifactKey: Guid(665c4e3d00a50524eb604723fa564ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_6.asset using Guid(665c4e3d00a50524eb604723fa564ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c238ac5768cc4232873ea6a93baae1c5') in 0.019131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 141.588799 seconds.
+  path: Assets/tileset/BackgroundMines.prefab
+  artifactKey: Guid(13e410efb75d19f43b64dcb171cfde87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/BackgroundMines.prefab using Guid(13e410efb75d19f43b64dcb171cfde87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a147a85517436358d9cbcab2d8b59ba') in 0.035114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/tileset/inca_back2_23.asset
+  artifactKey: Guid(8ee4eb8b01b6c984c8ac745568eb010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_23.asset using Guid(8ee4eb8b01b6c984c8ac745568eb010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd5fe2fe7a63709cf08aca71637988dd0') in 0.023470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/tileset/inca_back2_21.asset
+  artifactKey: Guid(3ff5ab2c78969054c92295fed4c336f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_21.asset using Guid(3ff5ab2c78969054c92295fed4c336f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8004be85de54898fb201d3bfe8b0124') in 0.019170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/tileset/inca_back2_31.asset
+  artifactKey: Guid(1e7663f939c7cc547acf6d9dab65ecd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_31.asset using Guid(1e7663f939c7cc547acf6d9dab65ecd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5580d5a4b1f8fd07aa610be4959177b3') in 0.013728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/tileset/inca_back2_32.asset
+  artifactKey: Guid(1a309323f995153419fa64f58e38fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_32.asset using Guid(1a309323f995153419fa64f58e38fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ad1e4a50b3b025ff2671698ad01fe07f') in 0.026161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/tileset/inca_back2_10.asset
+  artifactKey: Guid(c14d02445864963469b9b8c2bf7c87c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_10.asset using Guid(c14d02445864963469b9b8c2bf7c87c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fc56f9dd36785a0e343ece65bb838974') in 0.032863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/tileset/inca_back2_8.asset
+  artifactKey: Guid(85db8d75e3c53b74f99b0be457ca4df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_8.asset using Guid(85db8d75e3c53b74f99b0be457ca4df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e6daeacef47a41f8fd4e015aadf70e09') in 0.024345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/tileset/inca_back2_11.asset
+  artifactKey: Guid(ca4d4a71fcc903d4c8550cf31c9639dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_11.asset using Guid(ca4d4a71fcc903d4c8550cf31c9639dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'db99f6f74d2f76044bd41e1357451ba4') in 0.021256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/tileset/inca_back2_17.asset
+  artifactKey: Guid(ad2d72ae284f0af4ab260ed0cd8b1703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_17.asset using Guid(ad2d72ae284f0af4ab260ed0cd8b1703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6c2da82c9639fb5c92220ec7679a1f7') in 0.021451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/tileset/inca_back2_13.asset
+  artifactKey: Guid(efc43da101f85094589191684dc7c257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_13.asset using Guid(efc43da101f85094589191684dc7c257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be7d38a843b101d93c95c9832bb09bb0') in 0.029286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/tileset/inca_back2_4.asset
+  artifactKey: Guid(c367da0b9901d514c92cd9b470365b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_4.asset using Guid(c367da0b9901d514c92cd9b470365b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d72f5534fd1fea3ed9adf62982de277') in 0.005417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/tileset/inca_back2_0.asset
+  artifactKey: Guid(8b5257e13581d2e41816c540bc018fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_0.asset using Guid(8b5257e13581d2e41816c540bc018fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e795c305a1872c57db9992c026e7de8a') in 0.005222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/tileset/inca_back2_7.asset
+  artifactKey: Guid(27819f45bfa913641b8a3e6a802c8e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_7.asset using Guid(27819f45bfa913641b8a3e6a802c8e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09db0a01f868554320493bb7ac663a8b') in 0.004795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/tileset/inca_back2_12.asset
+  artifactKey: Guid(e02ea225a6ef764469f80264cd78d46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_12.asset using Guid(e02ea225a6ef764469f80264cd78d46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6c240183bebf3a3f9d67373771b5b0c6') in 0.005893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/tileset/inca_back2_15.asset
+  artifactKey: Guid(b27c74d2283768f4da76ff567b38bdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_15.asset using Guid(b27c74d2283768f4da76ff567b38bdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa84b0cdc9cce34b17f096047c95dfc8') in 0.004923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/tileset/inca_back2_5.asset
+  artifactKey: Guid(794e546d321326b41abc63adb770e94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_5.asset using Guid(794e546d321326b41abc63adb770e94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4d1369bfc6cf124a9eece5c36d6b76c8') in 0.005803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/tileset/inca_back2_19.asset
+  artifactKey: Guid(5965e19e0fc6f4a41ac15264037fc3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_19.asset using Guid(5965e19e0fc6f4a41ac15264037fc3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd80e5288f23324a52f27f25302942466') in 0.006197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/tileset/inca_back2_16.asset
+  artifactKey: Guid(7b6f34816954d5a4c9a75369a5a9eb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_16.asset using Guid(7b6f34816954d5a4c9a75369a5a9eb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c7bbcaabf6bad6e8372f2a56854f8a34') in 0.005087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/tileset/inca_back2_1.asset
+  artifactKey: Guid(69de5bec6a54d7043a7f19949e77b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_1.asset using Guid(69de5bec6a54d7043a7f19949e77b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74bfdac2d774d75fe082a178ac20bdf2') in 0.006333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/tileset/inca_back2_20.asset
+  artifactKey: Guid(770e0109edb13044888736f340bfd282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_20.asset using Guid(770e0109edb13044888736f340bfd282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '18c220c2cdb25cfe328f73bc331680b0') in 0.006098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/tileset/inca_back2_22.asset
+  artifactKey: Guid(4d6fa669be91d9045982d15673f708ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_22.asset using Guid(4d6fa669be91d9045982d15673f708ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83e4e54575f14b16cb4f1a54c7e574ac') in 0.005549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/tileset/inca_back2_3.asset
+  artifactKey: Guid(85498c95a62a8cc4ba4aec4c00d8625b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_3.asset using Guid(85498c95a62a8cc4ba4aec4c00d8625b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4d2a32c78fc8b44d496d33253d9019b8') in 0.005734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/tileset/inca_back2_25.asset
+  artifactKey: Guid(7c1bf6ee35567644ab7e05749849023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_25.asset using Guid(7c1bf6ee35567644ab7e05749849023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '510e849e52799d794804e8c47b8d9ebe') in 0.005721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/tileset/inca_back2_14.asset
+  artifactKey: Guid(12186ea80b793aa4692a17ba43e53cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_14.asset using Guid(12186ea80b793aa4692a17ba43e53cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '418d1236b9001e9b8fa2566327faee02') in 0.005474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/tileset/inca_back2_30.asset
+  artifactKey: Guid(73230d755d6f7c746ae61d2a9fa2a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_30.asset using Guid(73230d755d6f7c746ae61d2a9fa2a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e6f5fae2e44052d4a0ab01f210e9b2a') in 0.005312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/tileset/inca_back2_26.asset
+  artifactKey: Guid(bfc314ce408757e48b585eaf84610e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_26.asset using Guid(bfc314ce408757e48b585eaf84610e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a7e2ac9ca90028268bffee65561d12b') in 0.006514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/tileset/inca_back2_27.asset
+  artifactKey: Guid(446cebfa3991fdc4f9bd191a99f2dc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_27.asset using Guid(446cebfa3991fdc4f9bd191a99f2dc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9245021d9c3a7aa36bb25392bfde72ab') in 0.005927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/tileset/inca_back2_6.asset
+  artifactKey: Guid(665c4e3d00a50524eb604723fa564ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset/inca_back2_6.asset using Guid(665c4e3d00a50524eb604723fa564ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '539493068f5f900b5058b97dfea4ea63') in 0.005322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
