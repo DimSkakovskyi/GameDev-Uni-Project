@@ -17,6 +17,8 @@ public class CamController : MonoBehaviour
     private float camSize;
     public float leftOffset, rightOffset;
     private float targetScreenX;
+    private float targetScreenY;
+    public float botOffset, topOfsett;
 
     void OnEnable()
     {
@@ -46,6 +48,18 @@ public class CamController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             targetScreenX = rightOffset;
+            StopCoroutine(MoveCameraToOffset());
+            StartCoroutine(MoveCameraToOffset());
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            targetScreenY = topOfsett;
+            StopCoroutine(MoveCameraToOffset());
+            StartCoroutine(MoveCameraToOffset());
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            targetScreenY = botOffset;
             StopCoroutine(MoveCameraToOffset());
             StartCoroutine(MoveCameraToOffset());
         }
