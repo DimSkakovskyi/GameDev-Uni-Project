@@ -10,10 +10,11 @@ public class UserInput : MonoBehaviour
     public Light2D _lightRef;
     LightSwitch _lightswitch;
     public bool isCollidingWithLight = false;
+    public ParticleSystem lightEffect;
     void Start()
     {
         _lightRef = GetComponent<Light2D>();
-        ICommand turnOnCommand = new TogglePowerCommand(_lightRef);
+        ICommand turnOnCommand = new TogglePowerCommand(_lightRef, lightEffect);
         _lightswitch = new LightSwitch(turnOnCommand);
     }
 

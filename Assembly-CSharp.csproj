@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E0600C3E-E18D-59F8-1B33-B85C36DC04A3}</ProjectGuid>
+    <ProjectGuid>{AEB7EA4D-990E-ED38-0452-BD4940E711D9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\VisionManipulator.cs" />
     <Compile Include="Assets\Scripts\Lights Command Pattern\LightSwitch.cs" />
     <Compile Include="Assets\Scripts\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\SimpleEnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\CameraAnimCtrl.cs" />
     <Compile Include="Assets\Scripts\Lights Command Pattern\UserInput.cs" />
