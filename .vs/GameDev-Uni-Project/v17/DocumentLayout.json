@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "D:\\GameDev Uni\\GameDev-Uni-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|d:\\gamedev uni\\gamedev-uni-project\\assets\\scripts\\simpleenemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\simpleenemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|d:\\gamedev uni\\gamedev-uni-project\\assets\\scripts\\lights command pattern\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lights command pattern\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|d:\\gamedev uni\\gamedev-uni-project\\assets\\scripts\\lights command pattern\\togglepowercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\lights command pattern\\togglepowercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lights command pattern\\togglepowercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|d:\\gamedev uni\\gamedev-uni-project\\assets\\scripts\\lights command pattern\\lightswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\lights command pattern\\lightswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lights command pattern\\lightswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "SimpleEnemyPatrol.cs",
+              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\SimpleEnemyPatrol.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SimpleEnemyPatrol.cs",
+              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\SimpleEnemyPatrol.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SimpleEnemyPatrol.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwC0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T17:28:21.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LightSwitch.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:00:38.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T17:00:38.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TogglePowerCommand.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
@@ -55,12 +71,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T16:53:44.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T16:53:44.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserInput.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
@@ -73,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Simple-Enemy AI.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Simple-Enemy AI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Simple-Enemy AI.cs",
@@ -84,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CamController.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\CamController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CamController.cs",
