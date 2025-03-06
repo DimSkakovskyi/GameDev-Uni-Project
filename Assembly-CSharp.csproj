@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Player Mechanics\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\SimpleEnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\AttackArea.cs" />
+    <Compile Include="Assets\Scripts\Player Mechanics\Health Bar Visual.cs" />
     <Compile Include="Assets\Scripts\Camera adjustments\VisionManipulator.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\LootItem.cs" />

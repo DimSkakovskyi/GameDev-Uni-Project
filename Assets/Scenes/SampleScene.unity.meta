@@ -1,1 +1,7 @@
-(P\((J[CITY = "London"] * SPJ){PN} * P)){COLOR}
+1. Jx.JNAME WHERE NOT (∃Sx∃SPJx∃Jx(Sx.CITY = 'London' AND Px.COLOR = 'Red' AND Sx.SN = SPJx.SN AND Px.PN = SPJx.PN AND SPJx.JN = Jx.JN))
+2. Sx.SNAME WHERE ∀Px(Px.COLOR = 'Red' → ∃SPJx(SPJx.SN = Sx.SN AND SPJx.PN = Px.PN))
+3. Jx.CITY WHERE NOT (∃SPJx∃Prx(SPJx.JN = Jx.JN AND SPJx.PN = Prx.PN AND NOT (Px.COLOR = 'Red'))
+4. Jx.CITY WHERE NOT (∃Jx∃SPJx∃Prx(Jx.CITY = Jy.CITY AND SPJx.JN = Jx.JN AND SPJx.PN = Px.PN AND NOT (Px.COLOR = 'Red')))
+5. Jx.JNAME WHERE ∀Px(∃SPJx∃Sy(Sy.SNAME = 'John' AND SPJx.SN = Sy.SN AND SPJx.PN = Px.PN) → ∃SPJx(SPJx.JN = Jx.JN AND SPJx.PN = Px.PN))
+
+
