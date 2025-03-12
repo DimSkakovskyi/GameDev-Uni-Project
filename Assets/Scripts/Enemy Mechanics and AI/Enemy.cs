@@ -12,13 +12,52 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int health = 9;
 
     private int MAX_HEALTH = 9;
+    public bool isCollidingWithPlayer = false;
+    private bool attacking = false;
+    private int damage = 100;
 
+    private float timeToAttack = 0.25f;
+    private float timer = 0f;
 
 
     private void Update()
     {
+        if (attacking)
+        {
+            timer += Time.deltaTime;
 
+            if (timer >= timeToAttack)
+            {
+                timer = 0;
+                attacking = false;
+            }
+        }
     }
+
+    // Detect when player enters the trigger zone
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player")) // Ensure collider belongs to the player
+        {
+            isCollidingWithPlayer = true;
+            attacking = true;
+            if (other.GetComponent<Enemy>() != null && (attacking == true))
+            {
+                PlayerHealth health = other.GetComponent<PlayerHealth>();
+                health.Damage(damage);
+            }
+        }
+    }
+
+    // Detect when player exits the trigger zone
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isCollidingWithPlayer = false;
+        }
+    }
+
 
     public void Damage(int damage)
     {
