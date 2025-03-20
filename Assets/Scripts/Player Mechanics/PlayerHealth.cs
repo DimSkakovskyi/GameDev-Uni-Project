@@ -4,13 +4,24 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private int health = 100;
+    [SerializeField] public int health = 100;
 
-    private int MAX_HEALTH = 100;
+    public int MAX_HEALTH = 100;
+
+    public HealthBar healthBar;
+
+    private void Start()
+    {
+        health = MAX_HEALTH;
+        healthBar.SetMaxHealth(MAX_HEALTH);
+    }
 
     private void Update()
     {
-        
+        //if (Input.GetKeyUp(KeyCode.Q))
+        //{
+        //    Damage(20);
+        //}
     }
 
     public void Damage(int damage)
@@ -20,9 +31,11 @@ public class PlayerHealth : MonoBehaviour
             throw new System.ArgumentOutOfRangeException("Cannot have negative Damage");
         }
 
-        this.health -= damage;
+        health -= damage;
 
-        if (this.health < 0)
+        healthBar.SetHealth(health);
+
+        if (health == 0)
         {
             Die();
         }
@@ -37,11 +50,11 @@ public class PlayerHealth : MonoBehaviour
 
         if (health + healing > MAX_HEALTH)
         {
-            this.health = MAX_HEALTH;
+            health = MAX_HEALTH;
         }
         else
         {
-            this.health += healing;
+            health += healing;
         }
 
     }

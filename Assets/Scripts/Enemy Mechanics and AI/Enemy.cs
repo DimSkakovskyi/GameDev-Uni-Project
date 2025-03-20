@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour
     private int MAX_HEALTH = 9;
     public bool isCollidingWithPlayer = false;
     private bool attacking = false;
-    private int damage = 100;
+    private int damage = 20;
 
     private float timeToAttack = 0.25f;
     private float timer = 0f;
@@ -34,25 +34,27 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // Detect when player enters the trigger zone
-    void OnTriggerEnter2D(Collider2D other)
+    // Detect when player enters colliding zone
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.CompareTag("Player")) // Ensure collider belongs to the player
+        if (collision.gameObject.CompareTag("Player")) // Ensure it's the player
         {
             isCollidingWithPlayer = true;
             attacking = true;
-            if (other.GetComponent<Enemy>() != null && (attacking == true))
+
+            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+            if (playerHealth != null && attacking)
             {
-                PlayerHealth health = other.GetComponent<PlayerHealth>();
-                health.Damage(damage);
+                Debug.Log("Player hit by enemy!");
+                playerHealth.Damage(damage);
             }
         }
     }
 
-    // Detect when player exits the trigger zone
-    void OnTriggerExit2D(Collider2D other)
+    // Detect when player exits colliding zone
+    void OnCollisionExit2D(Collision2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             isCollidingWithPlayer = false;
         }
