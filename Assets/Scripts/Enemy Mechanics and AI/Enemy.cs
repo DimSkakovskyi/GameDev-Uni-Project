@@ -11,6 +11,8 @@ public class Enemy : MonoBehaviour
 
     [SerializeField] private int health = 9;
 
+    private Dictionary<string, ItemFactoryBase> LootFactories = new Dictionary<string, ItemFactoryBase>();
+
     private int MAX_HEALTH = 9;
     public bool isCollidingWithPlayer = false;
     private bool attacking = false;
@@ -18,6 +20,12 @@ public class Enemy : MonoBehaviour
 
     private float timeToAttack = 0.25f;
     private float timer = 0f;
+
+    private void Awake()
+    {
+        LootFactories.Add("healing", new HealingPotionFactory());
+        // LootFactories.Add("coin", new CoinFactory());
+    }
 
 
     private void Update()
@@ -96,23 +104,20 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
-        //Go around LootTable
-        //Spawn items
-        foreach (LootItem item in LootTable)
+        if (LootFactories.Count > 0)
         {
-            InitiateLoot(item.itemPrefab);
+            List<string> keys = new List<string>(LootFactories.Keys);
+            string randomKey = keys[Random.Range(0, keys.Count)];
+
+            ItemFactoryBase factory = LootFactories[randomKey];
+
+            if (factory != null)
+            {
+                factory.SpawnItem(transform.position);
+            }
         }
+
         Debug.Log("I am Dead");
         Destroy(gameObject);
-    }
-
-    void InitiateLoot(GameObject loot)
-    {
-        if (loot)
-        {
-            GameObject droppedLoot = Instantiate(loot, transform.position, Quaternion.identity);
-
-            droppedLoot.GetComponent<SpriteRenderer>().color = Color.yellow;
-        }
     }
 }
