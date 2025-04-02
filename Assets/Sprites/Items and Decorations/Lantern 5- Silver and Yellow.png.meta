@@ -1,0 +1,950 @@
+fileFormatVersion: 2
+guid: adfd360bcd664b9478790fc9816e1335
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb4867d806fa3448a96a08b01253348
+      internalID: -1072379373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 195
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0654d9b6feaf4e4cbc169a53e8ad9d6
+      internalID: 837123739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 195
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d283cd6ecb60347afcfafc65580b62
+      internalID: -1029742707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 195
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb9753ceac40ac4bbd162633ff6844c
+      internalID: 795415935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 195
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369e01dff0f33904f937e726d010bb22
+      internalID: -418273914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 195
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fe648eb9c6a5048aa729c2a4f1ccc5
+      internalID: 131652429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 195
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475fd7389eba70e479d63546446ff3e3
+      internalID: -646254878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74ba94afa3e15b46a18d845d35108b1
+      internalID: 1698655935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 156
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1731e47a7706f44e9bdc330314c24c4
+      internalID: 1565391606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 156
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2903f0e3ebc2414fb2d2ec6bb775450
+      internalID: 1436062600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 156
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeaae5a3bf71efb44962895237984d84
+      internalID: 477029514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_11
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 156
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221fe5708a32e174690258fd1a78fb30
+      internalID: 68511469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 156
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae9edff3629c4940bdc5aa2c8f89ca2
+      internalID: -1375448875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_13
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 156
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775abdb2cc75e124e87714859740cfd7
+      internalID: -151922072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c946c08066af1e8458add9887a377864
+      internalID: -2121810948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_15
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 117
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2184c47b5ab2346bcd4b482c71e70d
+      internalID: 2005051560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 117
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d967c6f26a9c1894992190ba1ac89091
+      internalID: -1104399005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 117
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea89148f4c74e949ac1501fd838c36a
+      internalID: 895198257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_18
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 117
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df86de68f932f4b47b6e4b0bcc76b722
+      internalID: 1444576553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 117
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a31de2a6403bcc468d70a9ce10f8f39
+      internalID: -2084188010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 117
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e446c95e19172a74097f0b163aeb6fb4
+      internalID: -689292532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05c386f4c7843d49a194d557d3e8c2e
+      internalID: 125427402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_22
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 78
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d633430d651d611498f3862e198a8dd8
+      internalID: 1176632707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 78
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd45a3f2a1294b42b962170a76f140b
+      internalID: 632823412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 78
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8afca64160c2747bebe6728a0790a5
+      internalID: 1509893538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 78
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c3ac34921d3434a9dc618fcb34fd2c
+      internalID: 1003869848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_26
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 78
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e787e3cd8d9ffac43bcd52d0f6638254
+      internalID: 2080250622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 78
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e17e0d43aa205449a21808e6dd4583
+      internalID: 1431167914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edf5b68a9af9724dab4d35058d0b29f
+      internalID: 152989829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 39
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113de700cb44b3448af1fc3a6c95675a
+      internalID: -615387961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 39
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb81fb5d336ac7499b0437f5c211038
+      internalID: -1656372573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 39
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdb66ebfa9a8564186dd62656ae7de3
+      internalID: -910162629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_32
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 39
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7c72ef1aa9abd45938c6c7178c5426
+      internalID: 475276995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 39
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833d2a6741f781544b63889588b4cab0
+      internalID: 1626283072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_34
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 39
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ae38f30e5692e459802392c68504d1
+      internalID: -1853114845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d696f26f2f1205141b96f1312d5f06e0
+      internalID: -1854100252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_36
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d27989ce9ba17845b17681b8f0ea3de
+      internalID: -816286967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 5- Silver and Yellow_37
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1997d634aa332be4d8c1fc812cb0319a
+      internalID: 1239408780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Lantern 5- Silver and Yellow_0: -1072379373
+      Lantern 5- Silver and Yellow_1: 837123739
+      Lantern 5- Silver and Yellow_10: 477029514
+      Lantern 5- Silver and Yellow_11: 68511469
+      Lantern 5- Silver and Yellow_12: -1375448875
+      Lantern 5- Silver and Yellow_13: -151922072
+      Lantern 5- Silver and Yellow_14: -2121810948
+      Lantern 5- Silver and Yellow_15: 2005051560
+      Lantern 5- Silver and Yellow_16: -1104399005
+      Lantern 5- Silver and Yellow_17: 895198257
+      Lantern 5- Silver and Yellow_18: 1444576553
+      Lantern 5- Silver and Yellow_19: -2084188010
+      Lantern 5- Silver and Yellow_2: -1029742707
+      Lantern 5- Silver and Yellow_20: -689292532
+      Lantern 5- Silver and Yellow_21: 125427402
+      Lantern 5- Silver and Yellow_22: 1176632707
+      Lantern 5- Silver and Yellow_23: 632823412
+      Lantern 5- Silver and Yellow_24: 1509893538
+      Lantern 5- Silver and Yellow_25: 1003869848
+      Lantern 5- Silver and Yellow_26: 2080250622
+      Lantern 5- Silver and Yellow_27: 1431167914
+      Lantern 5- Silver and Yellow_28: 152989829
+      Lantern 5- Silver and Yellow_29: -615387961
+      Lantern 5- Silver and Yellow_3: 795415935
+      Lantern 5- Silver and Yellow_30: -1656372573
+      Lantern 5- Silver and Yellow_31: -910162629
+      Lantern 5- Silver and Yellow_32: 475276995
+      Lantern 5- Silver and Yellow_33: 1626283072
+      Lantern 5- Silver and Yellow_34: -1853114845
+      Lantern 5- Silver and Yellow_35: -1854100252
+      Lantern 5- Silver and Yellow_36: -816286967
+      Lantern 5- Silver and Yellow_37: 1239408780
+      Lantern 5- Silver and Yellow_4: -418273914
+      Lantern 5- Silver and Yellow_5: 131652429
+      Lantern 5- Silver and Yellow_6: -646254878
+      Lantern 5- Silver and Yellow_7: 1698655935
+      Lantern 5- Silver and Yellow_8: 1565391606
+      Lantern 5- Silver and Yellow_9: 1436062600
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

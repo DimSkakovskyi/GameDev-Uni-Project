@@ -15,11 +15,13 @@ public class PlayerMovement : MonoBehaviour
 	#region Variables
 	//Components
     public Rigidbody2D RB { get; private set; }
+    private Animator animator;
 
-	//Variables control the various actions the player can perform at any time.
-	//These are fields which can are public allowing for other sctipts to read them
-	//but can only be privately written to.
-	public bool IsFacingRight { get; private set; }
+
+    //Variables control the various actions the player can perform at any time.
+    //These are fields which can are public allowing for other sctipts to read them
+    //but can only be privately written to.
+    public bool IsFacingRight { get; private set; }
 	public bool IsJumping { get; private set; }
 	public bool IsWallJumping { get; private set; }
 	public bool IsSliding { get; private set; }
@@ -58,9 +60,11 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
 	{
 		RB = GetComponent<Rigidbody2D>();
-	}
+        animator = GetComponent<Animator>();
 
-	private void Start()
+    }
+
+    private void Start()
 	{
 		SetGravityScale(Data.gravityScale);
 		IsFacingRight = true;
@@ -206,7 +210,18 @@ public class PlayerMovement : MonoBehaviour
 			//Default gravity if standing on a platform or moving upwards
 			SetGravityScale(Data.gravityScale);
 		}
-		#endregion
+        #endregion
+
+        #region ANIMATOR UPDATES
+        if (animator != null)
+        {
+            animator.SetBool("isRunning", Mathf.Abs(_moveInput.x) > 0.01f);
+            animator.SetBool("isJumping", IsJumping);
+            animator.SetBool("isClimbing", IsSliding);      // wall sliding
+            animator.SetBool("isFalling", _isJumpFalling);  // falling
+                                                            // animator.SetBool("isDead", isDead); // if you're handling death
+        }
+        #endregion
     }
 
     private void FixedUpdate()
