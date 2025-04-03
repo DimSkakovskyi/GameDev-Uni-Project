@@ -1,58 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GameDev Uni\\GameDev-Uni-Project\\",
+  "WorkspaceRootPath": "C:\\Git.repos\\GameDev-Uni-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\enemy mechanics and ai\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vanal\\Downloads\\Telegram Desktop\\main (2).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|c:\\git.repos\\gamedev-uni-project\\assets\\scripts\\enemy mechanics and ai\\jerk_enemy\\jercenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy mechanics and ai\\jerk_enemy\\jercenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|c:\\git.repos\\gamedev-uni-project\\assets\\scripts\\enemy mechanics and ai\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy mechanics and ai\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\player mechanics\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\player mechanics\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player mechanics\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|d:\\gamedev uni\\gamedev-uni-project\\assets\\scripts\\player mechanics\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\player mechanics\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player mechanics\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|d:\\gamedev uni\\gamedev-uni-project\\assets\\scripts\\player mechanics\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\player mechanics\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player mechanics\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\player mechanics\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\player mechanics\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player mechanics\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\player mechanics\\attackarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\player mechanics\\attackarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player mechanics\\attackarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\lights command pattern\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\lights command pattern\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lights command pattern\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\lights command pattern\\lightswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\lights command pattern\\lightswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lights command pattern\\lightswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\lights command pattern\\togglepowercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\lights command pattern\\togglepowercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lights command pattern\\togglepowercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\SimpleEnemyPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SimpleEnemyPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\SimpleEnemyPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Simple-Enemy AI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Simple-Enemy AI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Simple-Enemy AI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\CamController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CamController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\CamController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\Health Bar Visual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Mechanics\\Health Bar Visual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\Health Bar Visual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,67 +65,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
-              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:34:14.215Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HealthBar.cs",
-              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
-              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:11:25.366Z",
+              "DocumentIndex": 0,
+              "Title": "main (2).cpp",
+              "DocumentMoniker": "C:\\Users\\vanal\\Downloads\\Telegram Desktop\\main (2).cpp",
+              "RelativeDocumentMoniker": "..\\..\\Users\\vanal\\Downloads\\Telegram Desktop\\main (2).cpp",
+              "ToolTip": "C:\\Users\\vanal\\Downloads\\Telegram Desktop\\main (2).cpp",
+              "RelativeToolTip": "..\\..\\Users\\vanal\\Downloads\\Telegram Desktop\\main (2).cpp",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T18:27:49.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
-              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Title": "JercEnemy.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\jerk_enemy\\JercEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\jerk_enemy\\JercEnemy.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\jerk_enemy\\JercEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Mechanics and AI\\jerk_enemy\\JercEnemy.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:37:03.382Z",
+              "WhenOpened": "2025-03-30T20:00:13.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:34:14.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:11:25.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:37:03.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Enemy.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\Enemy.cs",
-              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Enemy.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy Mechanics and AI\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T11:23:36.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AttackArea.cs",
-              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\AttackArea.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\AttackArea.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\AttackArea.cs",
-              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\AttackArea.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\AttackArea.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Mechanics\\AttackArea.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -130,11 +172,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PlayerAttack.cs",
-              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerAttack.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerAttack.cs",
-              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerAttack.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerAttack.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Mechanics\\PlayerAttack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -142,11 +184,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UserInput.cs",
-              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
-              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
               "RelativeToolTip": "Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAgwAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,24 +196,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Health Bar Visual.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\Health Bar Visual.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\Health Bar Visual.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\Health Bar Visual.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player Mechanics\\Health Bar Visual.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:01:46.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T09:01:46.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "TogglePowerCommand.cs",
-              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
-              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
               "RelativeToolTip": "Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwBkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,11 +218,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "LightSwitch.cs",
-              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
-              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
               "RelativeToolTip": "Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -191,37 +230,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SimpleEnemyPatrol.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\SimpleEnemyPatrol.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SimpleEnemyPatrol.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\SimpleEnemyPatrol.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SimpleEnemyPatrol.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:28:21.766Z"
+              "WhenOpened": "2025-02-26T17:28:21.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Simple-Enemy AI.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Simple-Enemy AI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Simple-Enemy AI.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Simple-Enemy AI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Simple-Enemy AI.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T11:25:59.948Z"
+              "WhenOpened": "2025-02-26T11:25:59.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CamController.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\CamController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CamController.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\CamController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CamController.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAUwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T18:12:21.228Z"
+              "WhenOpened": "2025-02-04T18:12:21.228Z",
+              "EditorCaption": ""
             }
           ]
         }
