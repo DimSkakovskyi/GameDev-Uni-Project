@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Git.repos\\GameDev-Uni-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|c:\\git.repos\\gamedev-uni-project\\assets\\scripts\\enemy mechanics and ai\\bat\\poisonbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|c:\\git.repos\\gamedev-uni-project\\assets\\scripts\\enemy mechanics and ai\\bat\\flyingchasingenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy mechanics and ai\\bat\\flyingchasingenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\enemy mechanics and ai\\bat\\poisonbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy mechanics and ai\\bat\\poisonbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\enemy mechanics and ai\\bat\\shoting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy mechanics and ai\\bat\\shoting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\enemy mechanics and ai\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy mechanics and ai\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\enemy mechanics and ai\\bat\\batenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy mechanics and ai\\bat\\batenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|C:\\Git.repos\\GameDev-Uni-Project\\assets\\scripts\\enemy mechanics and ai\\simpleenemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,20 +110,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "shoting.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\shoting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\shoting.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\shoting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\shoting.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T20:00:41.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PoisonBullet.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\PoisonBullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\PoisonBullet.cs",
               "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\PoisonBullet.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\PoisonBullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T15:10:29.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T15:10:29.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "HealthBar.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
@@ -131,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
@@ -139,12 +154,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:37:03.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T19:37:03.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
@@ -156,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AttackArea.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\AttackArea.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\AttackArea.cs",
@@ -168,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\Enemy.cs",
@@ -176,25 +190,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy Mechanics and AI\\Enemy.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T11:23:36.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T11:23:36.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BatEnemy.cs",
-              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\BatEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\BatEnemy.cs",
-              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\BatEnemy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\BatEnemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FlyingChasingEnemy.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\FlyingChasingEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\FlyingChasingEnemy.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\FlyingChasingEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Mechanics and AI\\Bat\\FlyingChasingEnemy.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswGMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T15:08:59.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SimpleEnemyPatrol.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\SimpleEnemyPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\SimpleEnemyPatrol.cs",
@@ -202,12 +215,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy Mechanics and AI\\SimpleEnemyPatrol.cs",
               "ViewState": "AgIAAJUAAAAAAAAAAAAUwJQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T15:51:50.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T15:51:50.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PlayerData.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerData.cs",
@@ -219,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "HealingPotionFactory.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Items Factory\u0027s\\HealingPotionFactory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Items Factory\u0027s\\HealingPotionFactory.cs",
@@ -231,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HealingPotion.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Items Factory\u0027s\\HealingPotion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Items Factory\u0027s\\HealingPotion.cs",
@@ -243,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Abstract Factory.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Items Factory\u0027s\\Abstract Factory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Items Factory\u0027s\\Abstract Factory.cs",
@@ -255,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PlayerAttack.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerAttack.cs",
@@ -267,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UserInput.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
@@ -279,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Health Bar Visual.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\Health Bar Visual.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\Health Bar Visual.cs",
@@ -289,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "TogglePowerCommand.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
@@ -301,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "LightSwitch.cs",
               "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
@@ -313,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "SimpleEnemyPatrol.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\SimpleEnemyPatrol.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\SimpleEnemyPatrol.cs",
@@ -322,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Simple-Enemy AI.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Simple-Enemy AI.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Simple-Enemy AI.cs",
@@ -331,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CamController.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\CamController.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\CamController.cs",

@@ -21,7 +21,7 @@ public class FlyingChasingEnemy : MonoBehaviour
 
     private float shootTimer = 0f;
     private Vector3 origin;
-    private bool isChasing = false;
+    public bool isChasing { get; private set; } = false;
     private float seedX, seedY;
 
     void Start()
@@ -42,7 +42,7 @@ public class FlyingChasingEnemy : MonoBehaviour
         if (isChasing)
         {
             ChasePlayer();
-            ShootAtPlayer(); // Стріляє з власної позиції
+            //ShootAtPlayer(); // Стріляє з власної позиції
         }
         else
         {
@@ -76,7 +76,7 @@ public class FlyingChasingEnemy : MonoBehaviour
         transform.position = newPosition;
     }
 
-    void ShootAtPlayer()
+    /*void ShootAtPlayer()
 {
     shootTimer += Time.deltaTime;
 
@@ -97,7 +97,7 @@ public class FlyingChasingEnemy : MonoBehaviour
             poison.SetDirection(direction);
         
     }
-}
+}*/
 
     private void OnDrawGizmosSelected()
     {

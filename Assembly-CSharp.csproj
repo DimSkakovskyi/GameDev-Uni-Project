@@ -63,14 +63,15 @@
     <Compile Include="Assets\Scripts\Camera adjustments\CamController.cs" />
     <Compile Include="Assets\Scripts\Lights Command Pattern\LightSwitch.cs" />
     <Compile Include="Assets\Scripts\Items Factory&apos;s\HealingPotion.cs" />
+    <Compile Include="Assets\Scripts\Enemy Mechanics and AI\Bat\FlyingChasingEnemy.cs" />
     <Compile Include="Assets\Scripts\Items Factory&apos;s\HealingPotionFactory.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\PlayerData.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\Enemy Mechanics and AI\Bat\BatEnemy.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Enemy Mechanics and AI\Bat\PoisonBullet.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\PlayerAttack.cs" />
+    <Compile Include="Assets\Scripts\Enemy Mechanics and AI\Bat\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Enemy Mechanics and AI\Bat\shoting.cs" />
     <Compile Include="Assets\Scripts\Items Factory&apos;s\Abstract Factory.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\SimpleEnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\AttackArea.cs" />
