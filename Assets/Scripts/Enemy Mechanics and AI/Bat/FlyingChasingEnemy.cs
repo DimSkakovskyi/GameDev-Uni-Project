@@ -14,12 +14,6 @@ public class FlyingChasingEnemy : MonoBehaviour
     [Header("Target")]
     public Transform player;
 
-    [Header("Shooting")]
-    [SerializeField] private GameObject poisonBulletPrefab;
-    [SerializeField] private float bulletSpeed = 5f;
-    [SerializeField] private float shootCooldown = 1.5f;
-
-    private float shootTimer = 0f;
     private Vector3 origin;
     public bool isChasing { get; private set; } = false;
     private float seedX, seedY;
@@ -42,15 +36,12 @@ public class FlyingChasingEnemy : MonoBehaviour
         if (isChasing)
         {
             ChasePlayer();
-            //ShootAtPlayer(); // Стріляє з власної позиції
         }
         else
         {
             Patrol();
-            shootTimer = 0f;
         }
     }
-
     void Patrol()
     {
         float x = (Mathf.PerlinNoise(seedX, Time.time * 0.5f) - 0.5f) * 2;
@@ -75,29 +66,6 @@ public class FlyingChasingEnemy : MonoBehaviour
 
         transform.position = newPosition;
     }
-
-    /*void ShootAtPlayer()
-{
-    shootTimer += Time.deltaTime;
-
-    if (shootTimer >= shootCooldown)
-    {
-        shootTimer = 0f;
-
-        if (poisonBulletPrefab == null || player == null) return;
-
-        // Створення кулі в позиції ворога
-        GameObject bullet = Instantiate(poisonBulletPrefab, transform.position, Quaternion.identity);
-
-        Vector2 direction = (player.position - transform.position).normalized;
-
-        PoisonBullet poison = bullet.GetComponent<PoisonBullet>();
-        
-        
-            poison.SetDirection(direction);
-        
-    }
-}*/
 
     private void OnDrawGizmosSelected()
     {

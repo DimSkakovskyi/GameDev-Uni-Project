@@ -39,11 +39,21 @@ public class shoting : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, FirePoint.position, Quaternion.identity);
-        Bullet bulletScript = bullet.GetComponent<Bullet>();
-        if (bulletScript != null && playerTransform != null)
+        GameObject bulletGO = Instantiate(bulletPrefab, FirePoint.position, Quaternion.identity);
+
+        Bullet bullet = bulletGO.GetComponent<Bullet>();
+        if (bullet != null)
         {
-            bulletScript.SetDirection(playerTransform.position);
+            Transform player = GameObject.FindGameObjectWithTag("Player")?.transform;
+
+            if (player != null)
+            {
+                bullet.SetDirection(player.position);
+
+                // Передаємо колайдер ворога
+                Collider2D ownerCol = GetComponent<Collider2D>();
+                bullet.SetOwner(ownerCol);
+            }
         }
     }
 }
