@@ -72,18 +72,24 @@
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\IEnemyState.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\PlayerAttack.cs" />
+    <Compile Include="Assets\Generator\ExitDoor.cs" />
+    <Compile Include="Assets\Generator\LevelGeneration.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\SimpleEnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\AttackArea.cs" />
+    <Compile Include="Assets\Generator\RoomType.cs" />
     <Compile Include="Assets\Scripts\Camera adjustments\VisionManipulator.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\DeathState.cs" />
+    <Compile Include="Assets\Generator\SpawnRooms.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\LootItem.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\IdleState.cs" />
+    <Compile Include="Assets\Generator\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Camera adjustments\CameraAnimCtrl.cs" />
     <Compile Include="Assets\Scripts\Lights Command Pattern\UserInput.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\MovingState.cs" />
     <Compile Include="Assets\Scripts\Lights Command Pattern\ICommand.cs" />
     <Compile Include="Assets\Scripts\Lights Command Pattern\TogglePowerCommand.cs" />
+    <Compile Include="Assets\Generator\SpawnObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

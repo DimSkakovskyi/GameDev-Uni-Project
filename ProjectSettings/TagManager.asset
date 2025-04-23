@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - LevelGround
   - Bar
+  - PlayerSpawn
   layers:
   - Default
   - TransparentFX

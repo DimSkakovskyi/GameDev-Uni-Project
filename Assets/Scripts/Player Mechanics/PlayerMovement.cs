@@ -11,9 +11,10 @@ public class PlayerMovement : MonoBehaviour
 	//Next, drag it into the slot in playerMovement on your player
 
 	public PlayerData Data;
+    private bool _canJumpAfterSpawn = true;
 
-	#region Variables
-	//Components
+    #region Variables
+    //Components
     public Rigidbody2D RB { get; private set; }
     private Animator animator;
 
@@ -65,12 +66,20 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Start()
-	{
-		SetGravityScale(Data.gravityScale);
-		IsFacingRight = true;
-	}
+    {
+        SetGravityScale(Data.gravityScale);
+        IsFacingRight = true;
 
-	private void Update()
+        // Allow jump briefly after spawning
+        _canJumpAfterSpawn = true;
+        Invoke(nameof(DisableJumpAfterSpawn), 0.2f); // adjust duration as needed
+    }
+    private void DisableJumpAfterSpawn()
+    {
+        _canJumpAfterSpawn = false;
+    }
+
+    private void Update()
 	{
         #region TIMERS
         LastOnGroundTime -= Time.deltaTime;
@@ -393,10 +402,10 @@ public class PlayerMovement : MonoBehaviour
 
     private bool CanJump()
     {
-		return LastOnGroundTime > 0 && !IsJumping;
+        return (_canJumpAfterSpawn || LastOnGroundTime > 0) && !IsJumping;
     }
 
-	private bool CanWallJump()
+    private bool CanWallJump()
     {
 		return LastPressedJumpTime > 0 && LastOnWallTime > 0 && LastOnGroundTime <= 0 && (!IsWallJumping ||
 			 (LastOnWallRightTime > 0 && _lastWallJumpDir == 1) || (LastOnWallLeftTime > 0 && _lastWallJumpDir == -1));
