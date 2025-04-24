@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\GameDev Uni\\GameDev-Uni-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\player mechanics\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player mechanics\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|d:\\gamedev uni\\gamedev-uni-project\\assets\\generator\\levelgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\generator\\levelgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\generator\\exitdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\generator\\exitdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|d:\\gamedev uni\\gamedev-uni-project\\assets\\generator\\bordergate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\generator\\bordergate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\player mechanics\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player mechanics\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\generator\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,36 +114,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "BorderGate.cs",
+              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\BorderGate.cs",
+              "RelativeDocumentMoniker": "Assets\\Generator\\BorderGate.cs",
+              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\BorderGate.cs",
+              "RelativeToolTip": "Assets\\Generator\\BorderGate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:29:59.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LevelGeneration.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\LevelGeneration.cs",
               "RelativeDocumentMoniker": "Assets\\Generator\\LevelGeneration.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\LevelGeneration.cs",
               "RelativeToolTip": "Assets\\Generator\\LevelGeneration.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAgwBsAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAiwJsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T09:15:29.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MovingState.cs",
-              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\MovingState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\MovingState.cs",
-              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\MovingState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy Mechanics and AI\\MovingState.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T19:19:11.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "HurtState.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\HurtState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\HurtState.cs",
@@ -151,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DeathState.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\DeathState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\DeathState.cs",
@@ -163,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "HealingPotion.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Items Factory\u0027s\\HealingPotion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Items Factory\u0027s\\HealingPotion.cs",
@@ -175,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ItemFactoryBase.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Items Factory\u0027s\\ItemFactoryBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Items Factory\u0027s\\ItemFactoryBase.cs",
@@ -187,20 +192,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Mechanics\\PlayerMovement.cs",
-              "ViewState": "AgIAAIoBAAAAAAAAAAAAAJ8BAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAJwBAAAAAAAAAMBUwJ8BAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:34:14.215Z",
+              "WhenOpened": "2025-03-20T11:34:14.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExitDoor.cs",
+              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\ExitDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\Generator\\ExitDoor.cs",
+              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\ExitDoor.cs",
+              "RelativeToolTip": "Assets\\Generator\\ExitDoor.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T18:48:17.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "MovingState.cs",
+              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\MovingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\MovingState.cs",
+              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\MovingState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Mechanics and AI\\MovingState.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T19:19:11.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LevelManager.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\LevelManager.cs",
               "RelativeDocumentMoniker": "Assets\\Generator\\LevelManager.cs",
@@ -212,19 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExitDoor.cs",
-              "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\ExitDoor.cs",
-              "RelativeDocumentMoniker": "Assets\\Generator\\ExitDoor.cs",
-              "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\ExitDoor.cs",
-              "RelativeToolTip": "Assets\\Generator\\ExitDoor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T18:48:17.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HealingPotionFactory.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Items Factory\u0027s\\HealingPotionFactory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Items Factory\u0027s\\HealingPotionFactory.cs",
@@ -236,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IEnemyState.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\IEnemyState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\IEnemyState.cs",
@@ -248,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IdleState.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\IdleState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\IdleState.cs",
@@ -260,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AttackState.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\AttackState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\AttackState.cs",
@@ -272,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AttackArea.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\AttackArea.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\AttackArea.cs",
@@ -284,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "HealthBar.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\HealthBar.cs",
@@ -296,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SimpleEnemyPatrol.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Enemy Mechanics and AI\\SimpleEnemyPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Mechanics and AI\\SimpleEnemyPatrol.cs",
@@ -308,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerHealth.cs",
@@ -320,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Abstract Factory.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Items Factory\u0027s\\Abstract Factory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Items Factory\u0027s\\Abstract Factory.cs",
@@ -332,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "PlayerAttack.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\PlayerAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\PlayerAttack.cs",
@@ -344,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UserInput.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\UserInput.cs",
@@ -356,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Health Bar Visual.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Player Mechanics\\Health Bar Visual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Mechanics\\Health Bar Visual.cs",
@@ -368,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "TogglePowerCommand.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\TogglePowerCommand.cs",
@@ -380,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "LightSwitch.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lights Command Pattern\\LightSwitch.cs",
@@ -392,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Simple-Enemy AI.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Simple-Enemy AI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Simple-Enemy AI.cs",
@@ -403,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CamController.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\CamController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CamController.cs",

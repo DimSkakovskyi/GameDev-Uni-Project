@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\Lights Command Pattern\UserInput.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\MovingState.cs" />
     <Compile Include="Assets\Scripts\Lights Command Pattern\ICommand.cs" />
+    <Compile Include="Assets\Generator\BorderGate.cs" />
     <Compile Include="Assets\Scripts\Lights Command Pattern\TogglePowerCommand.cs" />
     <Compile Include="Assets\Generator\SpawnObject.cs" />
   </ItemGroup>

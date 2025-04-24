@@ -7,11 +7,13 @@ public class LevelGeneration : MonoBehaviour
 {
     public Transform[] startingPositions;
     public GameObject[] rooms; //index 0 --> LR, index 1 --> LRB, index 2 --> LRT, index 3 --> LRTB
-    public GameObject[] firstRooms;   // Assign in Inspector Ч start rooms
     public GameObject[] endRooms;     // Assign in Inspector Ч end rooms
 
     private int direction;
     public float moveAmount;
+
+    public BorderGate leftGate;
+    public BorderGate rightGate;
 
     [SerializeField] private CinemachineVirtualCamera vcam;
 
@@ -23,7 +25,7 @@ public class LevelGeneration : MonoBehaviour
     public float minY;
     public bool stopGeneration;
 
-    public GameObject endRoomPrefab; // assign in Inspector
+    public Transform playerSpawnPoint;
 
     public LayerMask room;
 
@@ -37,37 +39,15 @@ public class LevelGeneration : MonoBehaviour
         transform.position = spawnPos;
 
         // ≤нстанц≥юй стартову к≥мнату й збережи посиланн€ на нењ
-        int randFirst = Random.Range(0, firstRooms.Length);
-        GameObject startRoom = Instantiate(firstRooms[randFirst], spawnPos, Quaternion.identity);
-        //if (randFirst == 2 ) { randFirst++;};
-        //startRoom = Instantiate(rooms[randFirst], spawnPos, Quaternion.identity);
+        GameObject startRoom = Instantiate(rooms[2], spawnPos, Quaternion.identity);
 
-        // —пробуй знайти об'Їкт ≥з тегом "PlayerSpawn" всередин≥ стартовоњ к≥мнати
-        Transform spawnPoint = startRoom.transform.Find("Square");
+        GameObject player = Instantiate(playerPrefab, playerSpawnPoint.position, Quaternion.identity);
 
-        // јЅќ (альтернатива через тег, €кщо вищий вар≥ант не працюЇ)
-        if (spawnPoint == null)
+        if (vcam != null && player != null)
         {
-            GameObject tagged = GameObject.FindGameObjectWithTag("PlayerSpawn");
-            if (tagged != null)
-                spawnPoint = tagged.transform;
+            vcam.Follow = player.transform;
         }
 
-        // якщо знайдено точку спавну Ч спавнимо гравц€ там
-        if (spawnPoint != null)
-        {
-            GameObject player = Instantiate(playerPrefab, spawnPoint.position, Quaternion.identity);
-
-            // ѕризначаЇмо камер≥ гравц€ €к об'Їкт дл€ Follow
-            if (vcam != null)
-            {
-                vcam.Follow = player.transform;
-            }
-        }
-        else
-        {
-            Debug.LogError("Spawn point not found! Make sure 'Square' exists in start room.");
-        }
 
         direction = Random.Range(1, 6);
     }
@@ -173,8 +153,11 @@ public class LevelGeneration : MonoBehaviour
                 stopGeneration = true;
 
                 // Instantiate exit room at current position
-                int randEnd = Random.Range(0, endRooms.Length);
-                Instantiate(endRooms[randEnd], transform.position, Quaternion.identity);
+                //int randEnd = Random.Range(0, endRooms.Length);
+                //Instantiate(endRooms[randEnd], transform.position, Quaternion.identity);
+
+                leftGate.OpenAndClose();
+                rightGate.OpenAndClose();
             }
 
         }
