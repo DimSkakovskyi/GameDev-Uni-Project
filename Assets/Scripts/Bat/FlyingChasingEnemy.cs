@@ -13,8 +13,8 @@ public class FlyingChasingEnemy : MonoBehaviour
     [Header("Aggro Area")]
     public Vector2 aggroSize = new Vector2(8f, 6f);
 
-    [Header("Target")]
-    public Transform player;
+    [Header("Target (auto-found)")]
+    private Transform player;
 
     private Vector3 origin;
     public bool isChasing { get; private set; } = false;
@@ -25,6 +25,12 @@ public class FlyingChasingEnemy : MonoBehaviour
         origin = transform.position;
         seedX = Random.Range(0f, 100f);
         seedY = Random.Range(0f, 100f);
+
+        GameObject playerGO = GameObject.FindGameObjectWithTag("Player");
+        if (playerGO != null)
+        {
+            player = playerGO.transform;
+        }
     }
 
     void Update()
@@ -44,6 +50,7 @@ public class FlyingChasingEnemy : MonoBehaviour
             Patrol();
         }
     }
+
     void Patrol()
     {
         float x = (Mathf.PerlinNoise(seedX, Time.time * 0.5f) - 0.5f) * 2;
@@ -78,3 +85,4 @@ public class FlyingChasingEnemy : MonoBehaviour
         Gizmos.DrawWireCube(Application.isPlaying ? origin : transform.position, aggroSize * 2);
     }
 }
+

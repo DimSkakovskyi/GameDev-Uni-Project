@@ -35,7 +35,7 @@ public class PlayerHealth : MonoBehaviour
 
         healthBar.SetHealth(health);
 
-        if (health == 0)
+        if (health <= 0)
         {
             Die();
         }

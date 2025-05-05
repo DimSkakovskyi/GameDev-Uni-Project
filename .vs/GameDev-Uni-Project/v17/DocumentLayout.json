@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Git.repos\\GameDev-Uni-Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|c:\\git.repos\\gamedev-uni-project\\assets\\scripts\\bat\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bat\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Bat\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bat\\Enemy.cs",
+              "ToolTip": "C:\\Git.repos\\GameDev-Uni-Project\\Assets\\Scripts\\Bat\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bat\\Enemy.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAIwHMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:39:05.553Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

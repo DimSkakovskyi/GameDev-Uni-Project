@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class shoting : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     public Transform FirePoint;
     public FlyingChasingEnemy enemy;
     public GameObject bulletPrefab;
-    public Transform playerTransform;
 
-    public float fireCooldown = 1f; // ⏱ Інтервал між пострілами в секундах
+    private Transform playerTransform;
+
+    public float fireCooldown = 1f;
     private float fireCooldownTimer = 0f;
 
-    // Update is called once per frame
+    void Start()
+    {
+        GameObject playerGO = GameObject.FindGameObjectWithTag("Player");
+        if (playerGO != null)
+        {
+            playerTransform = playerGO.transform;
+        }
+    }
+
     void Update()
     {
-
-        if (enemy != null && enemy.isChasing)
+        if (enemy != null && enemy.isChasing && playerTransform != null)
         {
             if (fireCooldownTimer <= 0f)
             {
@@ -32,7 +38,6 @@ public class shoting : MonoBehaviour
         }
         else
         {
-            // Якщо гравець вийшов з агро-зони, таймер скидається (не обов'язково)
             fireCooldownTimer = 0f;
         }
     }
@@ -42,18 +47,12 @@ public class shoting : MonoBehaviour
         GameObject bulletGO = Instantiate(bulletPrefab, FirePoint.position, Quaternion.identity);
 
         Bullet bullet = bulletGO.GetComponent<Bullet>();
-        if (bullet != null)
+        if (bullet != null && playerTransform != null)
         {
-            Transform player = GameObject.FindGameObjectWithTag("Player")?.transform;
+            bullet.SetDirection(playerTransform.position);
 
-            if (player != null)
-            {
-                bullet.SetDirection(player.position);
-
-                // Передаємо колайдер ворога
-                Collider2D ownerCol = GetComponent<Collider2D>();
-                bullet.SetOwner(ownerCol);
-            }
+            Collider2D ownerCol = GetComponent<Collider2D>();
+            bullet.SetOwner(ownerCol);
         }
     }
 }
