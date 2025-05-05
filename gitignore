@@ -80,3 +80,7 @@ crashlytics-build.properties
 # MacOS
 .DS_Store
 **/.DS_Store
+
+!Assets/Resources/
+!Assets/Resources/Prefabs/
+!Assets/Resources/Prefabs.meta
