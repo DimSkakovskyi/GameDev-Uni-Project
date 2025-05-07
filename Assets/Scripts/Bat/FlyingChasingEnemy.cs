@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class FlyingChasingEnemy : MonoBehaviour
 {
     [Header("General")]
@@ -20,11 +21,21 @@ public class FlyingChasingEnemy : MonoBehaviour
     public bool isChasing { get; private set; } = false;
     private float seedX, seedY;
 
+    private Rigidbody2D rb;
+
+    [Header("Bat Animation Settings")]
+
+    public Animator animator;
+
     void Start()
     {
         origin = transform.position;
         seedX = Random.Range(0f, 100f);
         seedY = Random.Range(0f, 100f);
+
+        rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 0f;
+        rb.freezeRotation = true;
 
         GameObject playerGO = GameObject.FindGameObjectWithTag("Player");
         if (playerGO != null)
@@ -33,48 +44,83 @@ public class FlyingChasingEnemy : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (player == null) return;
 
         Vector3 toPlayer = player.position - origin;
-
         isChasing = Mathf.Abs(toPlayer.x) <= aggroSize.x && Mathf.Abs(toPlayer.y) <= aggroSize.y;
 
         if (isChasing)
         {
-            ChasePlayer();
-        }
+            float currentSpeed = rb.velocity.magnitude;
+            animator.SetFloat("speed", currentSpeed);
+            MoveTo(ChaseTarget());
+        }   
         else
-        {
-            Patrol();
-        }
+            MoveTo(PatrolTarget());
     }
 
-    void Patrol()
+    Vector3 ChaseTarget()
+    {
+        Vector3 dir = (player.position - transform.position).normalized;
+        Vector3 target = transform.position + dir * speed * Time.fixedDeltaTime;
+
+        target.x = Mathf.Clamp(target.x, origin.x - aggroSize.x, origin.x + aggroSize.x);
+        target.y = Mathf.Clamp(target.y, origin.y - aggroSize.y, origin.y + aggroSize.y);
+
+        return target;
+    }
+
+    Vector3 PatrolTarget()
     {
         float x = (Mathf.PerlinNoise(seedX, Time.time * 0.5f) - 0.5f) * 2;
         float y = (Mathf.PerlinNoise(seedY, Time.time * 0.5f) - 0.5f) * 2;
 
-        Vector3 direction = new Vector3(x, y, 0).normalized;
-        Vector3 newPosition = transform.position + direction * speed * Time.deltaTime;
+        Vector3 dir = new Vector3(x, y, 0).normalized;
+        Vector3 target = transform.position + dir * speed * Time.fixedDeltaTime;
 
-        newPosition.x = Mathf.Clamp(newPosition.x, origin.x - patrolSize.x, origin.x + patrolSize.x);
-        newPosition.y = Mathf.Clamp(newPosition.y, origin.y - patrolSize.y, origin.y + patrolSize.y);
+        target.x = Mathf.Clamp(target.x, origin.x - patrolSize.x, origin.x + patrolSize.x);
+        target.y = Mathf.Clamp(target.y, origin.y - patrolSize.y, origin.y + patrolSize.y);
 
-        transform.position = newPosition;
+        return target;
     }
 
-    void ChasePlayer()
+   void MoveTo(Vector3 target)
+{
+    Vector2 direction = (target - transform.position).normalized;
+    float distance = Vector2.Distance(transform.position, target);
+
+    // Основна перевірка на зіткнення
+    RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, LayerMask.GetMask("Obstacles"));
+
+    if (hit.collider == null)
     {
-        Vector3 direction = (player.position - transform.position).normalized;
-        Vector3 newPosition = transform.position + direction * speed * Time.deltaTime;
-
-        newPosition.x = Mathf.Clamp(newPosition.x, origin.x - aggroSize.x, origin.x + aggroSize.x);
-        newPosition.y = Mathf.Clamp(newPosition.y, origin.y - aggroSize.y, origin.y + aggroSize.y);
-
-        transform.position = newPosition;
+        rb.MovePosition(transform.position + (Vector3)(direction * speed * Time.deltaTime));
     }
+    else
+    {
+        // ❗ Перешкода! Пробуємо обхід:
+        Vector2[] alternateDirs = new Vector2[]
+        {
+            new Vector2(-direction.y, direction.x),  // Вліво відносно напрямку
+            new Vector2(direction.y, -direction.x),  // Вправо
+            -direction                                // Назад (останній варіант)
+        };
+
+        foreach (Vector2 altDir in alternateDirs)
+        {
+            RaycastHit2D altHit = Physics2D.Raycast(transform.position, altDir, speed * Time.deltaTime * 1.5f, LayerMask.GetMask("Obstacles"));
+            if (altHit.collider == null)
+            {
+                rb.MovePosition(transform.position + (Vector3)(altDir.normalized * speed * Time.deltaTime));
+                return;
+            }
+        }
+
+        // Якщо всі варіанти зайняті — стоїмо на місці
+    }
+}
 
     private void OnDrawGizmosSelected()
     {
@@ -85,4 +131,5 @@ public class FlyingChasingEnemy : MonoBehaviour
         Gizmos.DrawWireCube(Application.isPlaying ? origin : transform.position, aggroSize * 2);
     }
 }
+
 
