@@ -13,6 +13,9 @@ public class shoting : MonoBehaviour
     public float fireCooldown = 1f;
     private float fireCooldownTimer = 0f;
 
+    private Animator animator;
+
+
     void Start()
     {
         GameObject playerGO = GameObject.FindGameObjectWithTag("Player");
@@ -20,6 +23,8 @@ public class shoting : MonoBehaviour
         {
             playerTransform = playerGO.transform;
         }
+
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -54,5 +59,11 @@ public class shoting : MonoBehaviour
             Collider2D ownerCol = GetComponent<Collider2D>();
             bullet.SetOwner(ownerCol);
         }
+
+        if (animator != null)
+        {
+            animator.SetTrigger("Attack");
+        }
     }
 }
+

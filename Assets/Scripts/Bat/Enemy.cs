@@ -21,8 +21,13 @@ public class Enemy : MonoBehaviour
     private float timeToAttack = 0.25f;
     private float timer = 0f;
 
+    private Animator animator;
+
+
     private void Awake()
     {
+         animator = GetComponent<Animator>();
+
         LootFactories.Add("healing", new HealingPotionFactory());
         // LootFactories.Add("coin", new CoinFactory());
     }
@@ -69,20 +74,25 @@ public class Enemy : MonoBehaviour
     }
 
 
-    public void Damage(int damage)
+   public void Damage(int damage)
+{
+    if (damage < 0)
     {
-        if (damage < 0)
-        {
-            throw new System.ArgumentOutOfRangeException("Cannot have negative Damage");
-        }
-
-        this.health -= damage;
-
-        if (this.health < 0)
-        {
-            Die();
-        }
+        throw new System.ArgumentOutOfRangeException("Cannot have negative Damage");
     }
+
+    this.health -= damage;
+
+    if (animator != null)
+    {
+        animator.SetTrigger("Hurt");
+    }
+
+    if (this.health <= 0)
+    {
+        Die();
+    }
+}
 
     public void Healing(int healing)
     {
@@ -102,9 +112,17 @@ public class Enemy : MonoBehaviour
 
     }
 
-    private void Die()
+   private void Die()
+{
+    Debug.Log("I am Dead");
+
+    if (animator != null)
     {
-        Debug.Log("I am Dead");
-        Destroy(gameObject);
+        animator.SetTrigger("Die");
     }
+
+    // Знищення не одразу, щоб дати час анімації
+    Destroy(gameObject, 1.0f); // 1 секунда = тривалість анімації смерті
+}
+
 }

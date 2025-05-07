@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 5423752100681622893}
   - component: {fileID: 8438016111255983926}
   - component: {fileID: 134289015286145241}
+  - component: {fileID: 7880831048573470940}
   m_Layer: 0
   m_Name: bat_
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,8 +32,8 @@ Transform:
   m_GameObject: {fileID: 1974498631408933355}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.44, y: 1.53, z: -0.1722738}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: 59.727524, y: 73.980194, z: -0.1722738}
+  m_LocalScale: {x: 3.33, y: 3.33, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4345585262425793248}
@@ -133,7 +134,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.34, y: 0.16}
+  m_Size: {x: 0.35, y: 0.16}
   m_EdgeRadius: 0
 --- !u!50 &4173729640673574975
 Rigidbody2D:
@@ -143,11 +144,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974498631408933355}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 100
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -175,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LootTable: []
-  health: 9
+  health: 15
   isCollidingWithPlayer: 0
 --- !u!114 &8438016111255983926
 MonoBehaviour:
@@ -190,8 +191,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  patrolSize: {x: 10, y: 5}
-  aggroSize: {x: 7, y: 4}
+  patrolSize: {x: 6, y: 4}
+  aggroSize: {x: 4, y: 3}
+  animator: {fileID: 7880831048573470940}
 --- !u!114 &134289015286145241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,6 +210,27 @@ MonoBehaviour:
   enemy: {fileID: 8438016111255983926}
   bulletPrefab: {fileID: 632796081438544143, guid: 42d1b25ab96bf9d48a480e0b8d296c82, type: 3}
   fireCooldown: 1
+--- !u!95 &7880831048573470940
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974498631408933355}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 11b2e6fea28b8e84c93c503a9c0efeb8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3158168338541093908
 GameObject:
   m_ObjectHideFlags: 0
