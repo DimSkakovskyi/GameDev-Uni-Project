@@ -6418,6 +6418,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f07125e366ec1e541aa744c7aa65238a, type: 3}
+--- !u!1 &508300334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 508300336}
+  - component: {fileID: 508300335}
+  m_Layer: 7
+  m_Name: CoinPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &508300335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508300334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969235f58311de0498c415ae5c515882, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinPrefab: {fileID: 72071766449978511, guid: c82a3f2cc31844f47bf24045eb5d7435, type: 3}
+  poolSize: 20
+--- !u!4 &508300336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508300334}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 40, y: 73, z: 0}
+  m_LocalScale: {x: 1, y: 0.99985, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &508539402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7808,6 +7854,64 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f07125e366ec1e541aa744c7aa65238a, type: 3}
+--- !u!1 &627329860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 627329862}
+  - component: {fileID: 627329861}
+  m_Layer: 7
+  m_Name: SmartCoinSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &627329861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627329860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1ba713cb999c4d4698bbc9711cdac40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinPrefab: {fileID: 72071766449978511, guid: c82a3f2cc31844f47bf24045eb5d7435, type: 3}
+  initialCoins: 50
+  minX: 0
+  maxX: 80
+  minY: -7
+  maxY: 70
+  stepX: 1
+  stepY: 3
+  raycastLength: 3
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  spawnChance: 0.2
+  minCoinDistance: 2
+--- !u!4 &627329862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627329860}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 40, y: 73, z: 0}
+  m_LocalScale: {x: 1, y: 0.99985, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &627692397
 GameObject:
   m_ObjectHideFlags: 0
@@ -23122,6 +23226,7 @@ MonoBehaviour:
   - {fileID: 4883251179185271537, guid: 7298aff37bf45ed49ac2e4ff90b0fce5, type: 3}
   - {fileID: 8329456465302005867, guid: 53a03fb837955924689cc5ddd1e2d0f0, type: 3}
   moveAmount: 20
+  coinSpawner: {fileID: 627329861}
   leftGate: {fileID: 1932137146}
   rightGate: {fileID: 23243424}
   vcam: {fileID: 1799223145}
@@ -23133,7 +23238,7 @@ MonoBehaviour:
   playerSpawnPoint: {fileID: 209333361}
   room:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   playerPrefab: {fileID: 4662934593820028373, guid: 08a58fe0ce279734d9c325162c169666, type: 3}
 --- !u!4 &1760443596
 Transform:
@@ -29357,3 +29462,5 @@ SceneRoots:
   - {fileID: 1126962938}
   - {fileID: 209333361}
   - {fileID: 40251428}
+  - {fileID: 627329862}
+  - {fileID: 508300336}

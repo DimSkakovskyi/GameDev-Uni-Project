@@ -9,8 +9,11 @@ public class LevelGeneration : MonoBehaviour
     public GameObject[] rooms; //index 0 --> LR, index 1 --> LRB, index 2 --> LRT, index 3 --> LRTB
     public GameObject[] endRooms;     // Assign in Inspector — end rooms
 
+    public SmartCoinSpawner coinSpawner;
+
     private int direction;
     public float moveAmount;
+
 
     public BorderGate leftGate;
     public BorderGate rightGate;
@@ -143,6 +146,11 @@ public class LevelGeneration : MonoBehaviour
             else
             {
                 stopGeneration = true;
+
+                if (coinSpawner != null)
+                {
+                    coinSpawner.SpawnCoinsAcrossMap(); // Назви метод як зручно
+                }
 
                 int randEnd = Random.Range(0, endRooms.Length);
                 Instantiate(endRooms[randEnd], transform.position, Quaternion.identity);
