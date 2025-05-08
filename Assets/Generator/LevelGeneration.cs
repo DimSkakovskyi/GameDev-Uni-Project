@@ -51,13 +51,12 @@ public class LevelGeneration : MonoBehaviour
             vcam.Follow = player.transform;
         }
 
-
         direction = Random.Range(1, 6);
     }
 
     private void Update()
     {
-        if (timeBtwRoom <= 0 && stopGeneration == false)
+        if (timeBtwRoom <= 0 && !stopGeneration)
         {
             Move();
             timeBtwRoom = startTimeBtwRoom;
@@ -70,16 +69,14 @@ public class LevelGeneration : MonoBehaviour
 
     private void Move()
     {
-        if (direction == 1 || direction == 2) //Move RIGHT
+        if (direction == 1 || direction == 2) // Move RIGHT
         {
             if (transform.position.x < maxX)
             {
                 downCounter = 0;
-                Vector2 newPos = new Vector2(transform.position.x + moveAmount, transform.position.y);
-                transform.position = newPos;
+                transform.position += Vector3.right * moveAmount;
 
-                Collider2D roomCheck = Physics2D.OverlapCircle(transform.position, 1f, room);
-                if (roomCheck == null)
+                if (!Physics2D.OverlapCircle(transform.position, 1f, room))
                 {
                     int rand = Random.Range(0, rooms.Length);
                     Instantiate(rooms[rand], transform.position, Quaternion.identity);
@@ -91,16 +88,14 @@ public class LevelGeneration : MonoBehaviour
             }
             else direction = 5;
         }
-        else if (direction == 3 || direction == 4) //Move LEFT
+        else if (direction == 3 || direction == 4) // Move LEFT
         {
             if (transform.position.x > minX)
             {
                 downCounter = 0;
-                Vector2 newPos = new Vector2(transform.position.x - moveAmount, transform.position.y);
-                transform.position = newPos;
+                transform.position += Vector3.left * moveAmount;
 
-                Collider2D roomCheck = Physics2D.OverlapCircle(transform.position, 1f, room);
-                if (roomCheck == null)
+                if (!Physics2D.OverlapCircle(transform.position, 1f, room))
                 {
                     int rand = Random.Range(0, rooms.Length);
                     Instantiate(rooms[rand], transform.position, Quaternion.identity);
@@ -110,7 +105,7 @@ public class LevelGeneration : MonoBehaviour
             }
             else direction = 5;
         }
-        else if (direction == 5) //Move DOWN
+        else if (direction == 5) // Move DOWN
         {
             downCounter++;
 
@@ -118,26 +113,31 @@ public class LevelGeneration : MonoBehaviour
             {
                 Collider2D roomDetection = Physics2D.OverlapCircle(transform.position, 1f, room);
 
-                // === Перевірка, чи поточна кімната має верхній прохід ===
                 if (roomDetection != null)
                 {
                     RoomType currentRoom = roomDetection.GetComponent<RoomType>();
-                    if (currentRoom.type != 1 && currentRoom.type != 3)
+                    if (currentRoom.type != 2 && currentRoom.type != 4) // not LRB or LRTB (no bottom exit)
                     {
-                        // Якщо вже не має верхнього отвору — заміни на LRTB
                         roomDetection.GetComponent<RoomType>().RoomDestruction();
-                        Instantiate(rooms[3], transform.position, Quaternion.identity); // LRTB
+
+                        if (downCounter >= 2)
+                        {
+                            Instantiate(rooms[3], transform.position, Quaternion.identity); // LRTB
+                        }
+                        else
+                        {
+                            int randRoom = Random.Range(2, 4); // LRB or LRT
+                            Instantiate(rooms[randRoom], transform.position, Quaternion.identity);
+                        }
                     }
                 }
 
-                // === Перехід вниз ===
-                Vector2 newPos = new Vector2(transform.position.x, transform.position.y - moveAmount);
-                transform.position = newPos;
+                transform.position += Vector3.down * moveAmount;
 
                 Collider2D roomBelow = Physics2D.OverlapCircle(transform.position, 1f, room);
                 if (roomBelow == null)
                 {
-                    int rand = Random.Range(2, 4); // LRT або LRTB
+                    int rand = Random.Range(3, 5); // LRT or LRTB (must have TOP entrance)
                     Instantiate(rooms[rand], transform.position, Quaternion.identity);
                 }
 
@@ -149,7 +149,7 @@ public class LevelGeneration : MonoBehaviour
 
                 if (coinSpawner != null)
                 {
-                    coinSpawner.SpawnCoinsAcrossMap(); // Назви метод як зручно
+                    coinSpawner.SpawnCoinsAcrossMap();
                 }
 
                 int randEnd = Random.Range(0, endRooms.Length);
@@ -160,5 +160,4 @@ public class LevelGeneration : MonoBehaviour
             }
         }
     }
-
 }
