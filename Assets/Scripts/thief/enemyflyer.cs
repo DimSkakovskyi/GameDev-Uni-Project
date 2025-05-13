@@ -6,6 +6,7 @@ public class EnemyFlyer : MonoBehaviour
 {
     public float speed = 5f;
     private Vector2 direction;
+    public int numcoin = 1;
 
    void Start()
 {
@@ -65,7 +66,7 @@ void Update()
              Debug.Log("[EnemyFlyer] EnemyFlyer зіткнувся з гравцем");
             if (CoinManager.instance != null)
             {
-                CoinManager.instance.ChangeCoins(-1);
+                CoinManager.instance.ChangeCoins(-numcoin);
                 Debug.Log("[EnemyFlyer] Вкрадено 1 монету!");
             }
 

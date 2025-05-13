@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\Camera adjustments\VisionManipulator.cs" />
     <Compile Include="Assets\Scripts\thief\EnemyTrigger.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\thief\DarknessManager.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\DeathState.cs" />
     <Compile Include="Assets\Generator\SpawnRooms.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\LootItem.cs" />
