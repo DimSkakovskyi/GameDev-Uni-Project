@@ -12,38 +12,35 @@ public class EnemyFlyer : MonoBehaviour
 {
     Camera cam = Camera.main;
 
-    // Центр екрана
     Vector2 center = cam.ViewportToWorldPoint(new Vector2(0.5f, 0.5f));
 
-    // Межі екрану в світових координатах
     Vector2 screenMin = cam.ViewportToWorldPoint(new Vector2(0, 0));
     Vector2 screenMax = cam.ViewportToWorldPoint(new Vector2(1, 1));
 
     Vector2 spawnPos = Vector2.zero;
 
-    float offset = 2f; // зсув за екран (можна змінити для 0.5–1с затримки)
+    float offset = 2f; 
 
-    int edge = Random.Range(0, 4); // 0 = ліво, 1 = право, 2 = верх, 3 = низ
+    int edge = Random.Range(0, 4); 
 
     switch (edge)
     {
-        case 0: // лівий край
+        case 0: 
             spawnPos = new Vector2(screenMin.x - offset, Random.Range(screenMin.y, screenMax.y));
             break;
-        case 1: // правий край
+        case 1: 
             spawnPos = new Vector2(screenMax.x + offset, Random.Range(screenMin.y, screenMax.y));
             break;
-        case 2: // верхній край
+        case 2:
             spawnPos = new Vector2(Random.Range(screenMin.x, screenMax.x), screenMax.y + offset);
             break;
-        case 3: // нижній край
+        case 3: 
             spawnPos = new Vector2(Random.Range(screenMin.x, screenMax.x), screenMin.y - offset);
             break;
     }
 
     transform.position = spawnPos;
 
-    // напрямок до протилежного краю (через центр)
     Vector2 directionToCenter = (center - spawnPos).normalized;
     direction = directionToCenter;
 }
@@ -51,7 +48,6 @@ void Update()
 {
     transform.Translate(direction * speed * Time.deltaTime);
 
-    // Якщо вийшов далеко за межі екрана після прольоту
     Vector2 viewPos = Camera.main.WorldToViewportPoint(transform.position);
     if (viewPos.x < -0.2f || viewPos.x > 1.2f || viewPos.y < -0.2f || viewPos.y > 1.2f)
     {
@@ -67,10 +63,14 @@ void Update()
             if (CoinManager.instance != null)
             {
                 CoinManager.instance.ChangeCoins(-numcoin);
-                Debug.Log("[EnemyFlyer] Вкрадено 1 монету!");
+                Debug.Log("[EnemyFlyer] Вкрадено 5 монету!");
+            }
+            else{
+                CoinManager.instance.ChangeCoins(1);
+                Debug.Log("[EnemyFlyer] отримано 1 монету!");
             }
 
-            Destroy(gameObject); // зникає після удару
+            Destroy(gameObject); 
         }
     }
 }

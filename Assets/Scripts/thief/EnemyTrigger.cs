@@ -11,13 +11,10 @@ public class EnemyTrigger : MonoBehaviour
     public GameObject enemyPrefab;
 
     [Header("Світло")]
-    private GameObject playerLight;     // Light2D на гравці
-    public GameObject enemyLight;       // Prefab або об'єкт Light2D
+    private GameObject playerLight;     
+    public GameObject enemyLight;      
 
     private bool triggered = false;
-
-    private Eclipse eclipseEffect;
-
     public  float triggerDelay = 2f; 
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -28,7 +25,6 @@ public class EnemyTrigger : MonoBehaviour
 
         triggered = true;
 
-        // Спавн ворога з випадкової сторони екрану
         Camera cam = Camera.main;
         Vector2 screenMin = cam.ViewportToWorldPoint(new Vector2(0, 0));
         Vector2 screenMax = cam.ViewportToWorldPoint(new Vector2(1, 1));
@@ -47,9 +43,6 @@ public class EnemyTrigger : MonoBehaviour
         GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
         Debug.Log("Ворог створено на позиції: " + spawnPosition);
 
-
-
-        // Світло для ворога
         GameObject enemyLightInstance = Instantiate(enemyLight, enemy.transform.position, Quaternion.identity);
         if (enemyLightInstance == null)
     Debug.LogWarning("enemyLight не створено!");
@@ -59,7 +52,6 @@ public class EnemyTrigger : MonoBehaviour
         enemyLightInstance.transform.localPosition = Vector3.zero;
         enemyLightInstance.SetActive(true);
 
-        // Світло гравця
         if (playerLight == null)
         {
             Light2D lightComponent = other.GetComponentInChildren<Light2D>(true);
@@ -71,27 +63,22 @@ public class EnemyTrigger : MonoBehaviour
             playerLight.SetActive(true);
         else
             Debug.LogWarning("Світло гравця не знайдено!");
-
         
         StartCoroutine(HandleDarknessWithManager(enemy));
     }
 
    private IEnumerator HandleDarknessWithManager(GameObject enemy)
 {
-    // Починаємо затемнення
     DarknessManager.instance?.StartDarkness();
 
-    // Чекаємо, поки ворог буде на екрані
     while (enemy != null && IsEnemyVisible(enemy))
     {
         yield return null;
     }
 
-    // Видаляємо сам тригер, коли ворог вийшов за межі
     Destroy(gameObject);
     Debug.Log("Тригер знищено після зникнення ворога з екрану");
 
-    // Потім запускаємо спад затемнення
     DarknessManager.instance?.StopDarkness();
 }
 
