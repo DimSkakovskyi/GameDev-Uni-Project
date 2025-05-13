@@ -18,6 +18,8 @@ public class EnemyTrigger : MonoBehaviour
 
     private Eclipse eclipseEffect;
 
+    public  float triggerDelay = 2f; 
+
     private void OnTriggerEnter2D(Collider2D other)
     {
 
@@ -74,17 +76,24 @@ public class EnemyTrigger : MonoBehaviour
         StartCoroutine(HandleDarknessWithManager(enemy));
     }
 
-    private IEnumerator HandleDarknessWithManager(GameObject enemy)
+   private IEnumerator HandleDarknessWithManager(GameObject enemy)
+{
+    // Починаємо затемнення
+    DarknessManager.instance?.StartDarkness();
+
+    // Чекаємо, поки ворог буде на екрані
+    while (enemy != null && IsEnemyVisible(enemy))
     {
-        DarknessManager.instance?.StartDarkness();
-
-        while (enemy != null && IsEnemyVisible(enemy))
-        {
-            yield return null;
-        }
-
-        DarknessManager.instance?.StopDarkness();
+        yield return null;
     }
+
+    // Видаляємо сам тригер, коли ворог вийшов за межі
+    Destroy(gameObject);
+    Debug.Log("Тригер знищено після зникнення ворога з екрану");
+
+    // Потім запускаємо спад затемнення
+    DarknessManager.instance?.StopDarkness();
+}
 
     private bool IsEnemyVisible(GameObject enemy)
     {
