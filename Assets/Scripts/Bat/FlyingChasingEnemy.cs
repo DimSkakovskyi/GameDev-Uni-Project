@@ -27,7 +27,7 @@ public class FlyingChasingEnemy : MonoBehaviour
 
     public Animator animator;
 
-    void Start()
+    protected virtual void Start()
     {
         origin = transform.position;
         seedX = Random.Range(0f, 100f);
@@ -44,7 +44,7 @@ public class FlyingChasingEnemy : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         if (player == null) return;
 
@@ -122,7 +122,7 @@ public class FlyingChasingEnemy : MonoBehaviour
     }
 }
 
-    private void OnDrawGizmosSelected()
+    protected virtual void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(Application.isPlaying ? origin : transform.position, patrolSize * 2);
