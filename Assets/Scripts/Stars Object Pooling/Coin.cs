@@ -6,9 +6,14 @@ public class Coin : MonoBehaviour
     private bool hasTriggered;
     private CoinManager coinManager;
 
+
+     private void Start()
+    {
+
+        coinManager = CoinManager.instance;
+    }
     private void OnEnable()
     {
-        coinManager = CoinManager.instance;
 
         if (coinManager == null)
         {

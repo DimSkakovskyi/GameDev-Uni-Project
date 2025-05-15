@@ -1,7 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using System.Collections;
 
 using UnityEngine.Rendering.Universal;
 
@@ -41,6 +39,7 @@ public class EnemyTrigger : MonoBehaviour
         }
 
         GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+        SoundEffectManager.Play("Wraith");
         Debug.Log("Ворог створено на позиції: " + spawnPosition);
 
         GameObject enemyLightInstance = Instantiate(enemyLight, enemy.transform.position, Quaternion.identity);

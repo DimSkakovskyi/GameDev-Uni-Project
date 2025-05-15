@@ -7,11 +7,14 @@ public class StartMenuController : MonoBehaviour
 {
     public void OnStartClick()
     {
+        SoundEffectManager.Play("Click");
         SceneManager.LoadScene("Generator");
     }
 
     public void OnExitClick()
     {
+        SoundEffectManager.Play("Click");
+
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif

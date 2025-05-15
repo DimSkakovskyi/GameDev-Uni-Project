@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -6576521010537517949}
   m_Layer: 0
   m_Name: EnemyTriggerZone
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,8 +92,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 799154186586217749, guid: 24595b8d4f6acf0458bd56cc4d7ba50a, type: 3}
-  darknessOverlay: {fileID: 0}
   enemyLight: {fileID: 7497628979023325080, guid: 55e8d859544f1e143b252012c1f0b259, type: 3}
+  triggerDelay: 2
 --- !u!212 &-6576521010537517949
 SpriteRenderer:
   m_ObjectHideFlags: 0

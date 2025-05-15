@@ -1,4 +1,4 @@
-using Cinemachine;
+﻿using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,8 +7,9 @@ public class LevelGeneration : MonoBehaviour
 {
     public Transform[] startingPositions;
     public GameObject[] rooms; //index 0 --> LR, index 1 --> LRB, index 2 --> LRT, index 3 --> LRTB
-    public GameObject[] endRooms;     // Assign in Inspector � end rooms
+    public GameObject[] endRooms;     // Assign in Inspector � end rooms
 
+    public bool regenStar;
     public SmartCoinSpawner coinSpawner;
 
     private int direction;
@@ -41,8 +42,7 @@ public class LevelGeneration : MonoBehaviour
         Vector2 spawnPos = startingPositions[randStartingPos].position;
         transform.position = spawnPos;
 
-        // ���������� �������� ������ � ������� ��������� �� ��
-        GameObject startRoom = Instantiate(rooms[2], spawnPos, Quaternion.identity);
+        GameObject startRoom = Instantiate(rooms[3], spawnPos, Quaternion.identity);
 
         GameObject player = Instantiate(playerPrefab, playerSpawnPoint.position, Quaternion.identity);
 
@@ -55,15 +55,17 @@ public class LevelGeneration : MonoBehaviour
     }
 
     private void Update()
-    {
-        if (timeBtwRoom <= 0 && !stopGeneration)
+    { if (regenStar == false)
         {
-            Move();
-            timeBtwRoom = startTimeBtwRoom;
-        }
-        else
-        {
-            timeBtwRoom -= Time.deltaTime;
+            if (timeBtwRoom <= 0 && !stopGeneration)
+            {
+                Move();
+                timeBtwRoom = startTimeBtwRoom;
+            }
+            else
+            {
+                timeBtwRoom -= Time.deltaTime;
+            }
         }
     }
 
@@ -111,35 +113,40 @@ public class LevelGeneration : MonoBehaviour
 
             if (transform.position.y > minY)
             {
-                Collider2D roomDetection = Physics2D.OverlapCircle(transform.position, 1f, room);
+                Vector2 previousPos = transform.position; // ← зберігаємо поточну позицію перед рухом
 
-                if (roomDetection != null)
+                // Знаходимо кімнату на цій попередній позиції
+                Collider2D previousRoom = Physics2D.OverlapCircle(previousPos, 1.5f, room);
+                RoomType roomType = previousRoom?.GetComponentInParent<RoomType>();
+
+                if (roomType == null)
                 {
-                    RoomType currentRoom = roomDetection.GetComponent<RoomType>();
-                    if (currentRoom.type != 2 && currentRoom.type != 4) // not LRB or LRTB (no bottom exit)
+                    Debug.LogWarning("❗ No RoomType found at: " + previousPos);
+                }
+                else if (roomType.type != 4 && roomType.type != 2)
+                {
+                    if (downCounter >= 2)
                     {
-                        roomDetection.GetComponent<RoomType>().RoomDestruction();
+                        roomType.RoomDestruction();
+                        Instantiate(rooms[4], previousPos, Quaternion.identity); // LRTB
+                    }
+                    else
+                    {
+                        roomType.RoomDestruction();
+                        int randRoomDownOpening = Random.Range(2, 5); // LRT or LRTB
+                        if (randRoomDownOpening == 3)
+                            randRoomDownOpening = 2;
 
-                        if (downCounter >= 2)
-                        {
-                            Instantiate(rooms[3], transform.position, Quaternion.identity); // LRTB
-                        }
-                        else
-                        {
-                            int randRoom = Random.Range(2, 4); // LRB or LRT
-                            Instantiate(rooms[randRoom], transform.position, Quaternion.identity);
-                        }
+                        Instantiate(rooms[randRoomDownOpening], previousPos, Quaternion.identity);
                     }
                 }
 
+                // Тільки тепер зміщуємо позицію вниз
                 transform.position += Vector3.down * moveAmount;
 
-                Collider2D roomBelow = Physics2D.OverlapCircle(transform.position, 1f, room);
-                if (roomBelow == null)
-                {
-                    int rand = Random.Range(3, 5); // LRT or LRTB (must have TOP entrance)
-                    Instantiate(rooms[rand], transform.position, Quaternion.identity);
-                }
+                // І спавнимо кімнату, в яку рухаємось (з TOP входом)
+                int randRoom = Random.Range(3, 5); // LRT or LRTB
+                Instantiate(rooms[randRoom], transform.position, Quaternion.identity);
 
                 direction = Random.Range(1, 6);
             }
@@ -159,5 +166,49 @@ public class LevelGeneration : MonoBehaviour
                 rightGate.OpenAndClose();
             }
         }
+
     }
+
+    public void RegenerateLevel()
+    {
+        regenStar = true;
+        
+        foreach (GameObject room in GameObject.FindGameObjectsWithTag("Room"))
+        {
+                Destroy(gameObject);
+        }
+
+        // Очистити ворогів
+        foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
+        {
+            Destroy(enemy);
+        }
+
+        // Знайти і перемістити гравця
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            player.transform.position = playerSpawnPoint.position;
+            player.GetComponent<Rigidbody2D>().velocity = Vector2.zero; // зупинити інерцію
+        }
+        else
+        {
+            Debug.LogWarning("Player not found when regenerating level!");
+        }
+
+        // Генерація початкової кімнати
+        stopGeneration = false;
+        transform.position = startingPositions[Random.Range(0, startingPositions.Length)].position;
+        direction = Random.Range(1, 6);
+
+        downCounter = 0;
+        timeBtwRoom = 0;
+
+        GameObject startRoom = Instantiate(rooms[3], transform.position, Quaternion.identity);
+
+        regenStar = false;
+    }
+
+
 }
+

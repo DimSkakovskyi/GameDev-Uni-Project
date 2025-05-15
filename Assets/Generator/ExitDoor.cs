@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ExitDoor : MonoBehaviour
@@ -10,8 +8,16 @@ public class ExitDoor : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("Loading next level...");
-            FindObjectOfType<LevelManager>().GenerateNextLevel(); // or any manager
+            Debug.Log("Regenerating level...");
+            LevelGeneration levelGen = FindObjectOfType<LevelGeneration>();
+            if (levelGen != null)
+            {
+                levelGen.RegenerateLevel();
+            }
+            else
+            {
+                Debug.LogWarning("LevelGeneration not found in scene.");
+            }
         }
     }
 
@@ -27,4 +33,3 @@ public class ExitDoor : MonoBehaviour
             playerInRange = false;
     }
 }
-

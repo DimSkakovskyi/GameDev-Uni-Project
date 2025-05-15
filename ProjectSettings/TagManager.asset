@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - LevelGround
   - Bar
+  - PlayerSpawn
+  - Room
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - UI
   - Player
   - Ground
-  - 
+  - Room
   - 
   - 
   - 

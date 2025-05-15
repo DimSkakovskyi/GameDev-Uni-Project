@@ -6120,7 +6120,7 @@ GameObject:
   - component: {fileID: 9077761802001699396}
   m_Layer: 8
   m_Name: SRoom LRTB
-  m_TagString: PlayerSpawn
+  m_TagString: Room
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6154,7 +6154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4799a9a5205f9ab468c267d2738314c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 3
+  type: 2
 --- !u!61 &9077761802001699396
 BoxCollider2D:
   m_ObjectHideFlags: 0

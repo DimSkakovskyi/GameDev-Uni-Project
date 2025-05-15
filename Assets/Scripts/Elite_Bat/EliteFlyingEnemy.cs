@@ -63,7 +63,7 @@ public class EliteFlyingEnemy : FlyingChasingEnemy
         }
     }
 
-    private void OnDrawGizmosSelected()
+    public override void OnDrawGizmosSelected()
 {
     // Спочатку викликаємо Gizmos базового класу, якщо він є
     base.OnDrawGizmosSelected();

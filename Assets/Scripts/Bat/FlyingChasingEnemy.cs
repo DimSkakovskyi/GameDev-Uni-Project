@@ -54,6 +54,8 @@ public class FlyingChasingEnemy : MonoBehaviour
         if (isChasing)
         {
             float currentSpeed = rb.velocity.magnitude;
+            if (animator == null)
+                animator = GetComponent<Animator>();
             animator.SetFloat("speed", currentSpeed);
             MoveTo(ChaseTarget());
         }   
@@ -122,7 +124,7 @@ public class FlyingChasingEnemy : MonoBehaviour
     }
 }
 
-    protected virtual void OnDrawGizmosSelected()
+    public virtual void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(Application.isPlaying ? origin : transform.position, patrolSize * 2);

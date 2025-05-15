@@ -34,6 +34,7 @@ public class shoting : MonoBehaviour
             if (fireCooldownTimer <= 0f)
             {
                 Shoot();
+                SoundEffectManager.Play("Bat");
                 fireCooldownTimer = fireCooldown;
             }
             else
