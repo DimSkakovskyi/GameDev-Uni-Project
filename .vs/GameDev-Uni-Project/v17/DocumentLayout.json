@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\GameDev Uni\\GameDev-Uni-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|d:\\gamedev uni\\gamedev-uni-project\\assets\\generator\\levelgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\generator\\levelgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|d:\\gamedev uni\\gamedev-uni-project\\assets\\generator\\exitdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\generator\\exitdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\generator\\exitdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\generator\\exitdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\startmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\startmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\generator\\levelgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\generator\\levelgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\generator\\spawnrooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bat\\shoting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\startmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\startmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|D:\\GameDev Uni\\GameDev-Uni-Project\\assets\\scripts\\thief\\enemyflyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB7EA4D-990E-ED38-0452-BD4940E711D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thief\\enemyflyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -73,23 +73,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ExitDoor.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\ExitDoor.cs",
               "RelativeDocumentMoniker": "Assets\\Generator\\ExitDoor.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\ExitDoor.cs",
               "RelativeToolTip": "Assets\\Generator\\ExitDoor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:56:31.888Z"
+              "WhenOpened": "2025-05-15T07:56:31.888Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SpawnObject.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\SpawnObject.cs",
               "RelativeDocumentMoniker": "Assets\\Generator\\SpawnObject.cs",
@@ -101,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SpawnRooms.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\SpawnRooms.cs",
               "RelativeDocumentMoniker": "Assets\\Generator\\SpawnRooms.cs",
@@ -113,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EliteFlyingEnemy.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Elite_Bat\\EliteFlyingEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Elite_Bat\\EliteFlyingEnemy.cs",
@@ -125,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CoinPool.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Stars Object Pooling\\CoinPool.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Stars Object Pooling\\CoinPool.cs",
@@ -137,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Coin.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Stars Object Pooling\\Coin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Stars Object Pooling\\Coin.cs",
@@ -149,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "RoomType.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\RoomType.cs",
               "RelativeDocumentMoniker": "Assets\\Generator\\RoomType.cs",
@@ -161,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FlyingChasingEnemy.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Bat\\FlyingChasingEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bat\\FlyingChasingEnemy.cs",
@@ -173,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LevelGeneration.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Generator\\LevelGeneration.cs",
               "RelativeDocumentMoniker": "Assets\\Generator\\LevelGeneration.cs",
@@ -181,24 +182,23 @@
               "RelativeToolTip": "Assets\\Generator\\LevelGeneration.cs",
               "ViewState": "AgIAAKQAAAAAAAAAAAAuwLEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:08:23.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T07:08:23.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "StartMenuController.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\StartMenuController.cs",
               "RelativeDocumentMoniker": "Assets\\StartMenuController.cs",
               "ToolTip": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\StartMenuController.cs",
               "RelativeToolTip": "Assets\\StartMenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T05:48:00.651Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EnemyTrigger.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\thief\\EnemyTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\thief\\EnemyTrigger.cs",
@@ -244,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "shoting.cs",
               "DocumentMoniker": "D:\\GameDev Uni\\GameDev-Uni-Project\\Assets\\Scripts\\Bat\\shoting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bat\\shoting.cs",

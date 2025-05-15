@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ExitDoor : MonoBehaviour
 {
@@ -9,15 +10,17 @@ public class ExitDoor : MonoBehaviour
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("Regenerating level...");
-            LevelGeneration levelGen = FindObjectOfType<LevelGeneration>();
-            if (levelGen != null)
-            {
-                levelGen.RegenerateLevel();
-            }
-            else
-            {
-                Debug.LogWarning("LevelGeneration not found in scene.");
-            }
+
+            SceneManager.LoadScene("Generator");
+            //LevelGeneration levelGen = FindObjectOfType<LevelGeneration>();
+            //if (levelGen != null)
+            //{
+            //    levelGen.RegenerateLevel();
+            //}
+            //else
+            //{
+            //    Debug.LogWarning("LevelGeneration not found in scene.");
+            //}
         }
     }
 
