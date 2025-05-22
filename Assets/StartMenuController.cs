@@ -5,10 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class StartMenuController : MonoBehaviour
 {
+    [SerializeField] GameManager gameManager;
     public void OnStartClick()
     {
         SoundEffectManager.Play("Click");
+        Time.timeScale = 1;
         SceneManager.LoadScene("Generator");
+    }
+
+    public void OnContinueClick()
+    {
+        SoundEffectManager.Play("Click");
+        gameManager.ResumeGame();
     }
 
     public void OnExitClick()

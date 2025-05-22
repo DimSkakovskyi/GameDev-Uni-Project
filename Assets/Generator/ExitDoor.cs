@@ -1,17 +1,17 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ExitDoor : MonoBehaviour
 {
+    [SerializeField] private TMP_Text coinText;
     private bool playerInRange = false;
 
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && Input.GetKeyDown(KeyCode.E) && CoinManager.instance.coins >= 20)
         {
-            Debug.Log("Regenerating level...");
-
-            SceneManager.LoadScene("Generator");
+            GameManager.Instance.ShowLevelFinished();
             //LevelGeneration levelGen = FindObjectOfType<LevelGeneration>();
             //if (levelGen != null)
             //{

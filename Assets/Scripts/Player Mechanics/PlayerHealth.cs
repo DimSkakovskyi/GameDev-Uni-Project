@@ -65,5 +65,6 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("I am Dead");
         Destroy(gameObject);
+        GameManager.Instance.ShowGameOver();
     }
 }

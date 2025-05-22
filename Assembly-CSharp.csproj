@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Stars Object Pooling\Coin Manager.cs" />
     <Compile Include="Assets\Scripts\Bat\shoting.cs" />
     <Compile Include="Assets\SoundEffectManager.cs" />
+    <Compile Include="Assets\Generator\GameManager.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\AttackState.cs" />
     <Compile Include="Assets\Scripts\Bat\Bullet.cs" />
     <Compile Include="Assets\Scripts\Items Factory&apos;s\HealingPotion.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Scripts\Stars Object Pooling\SmartCoinSpawner.cs" />
     <Compile Include="Assets\Scripts\Bat\FlyingChasingEnemy.cs" />
     <Compile Include="Assets\SoundEffectLibrary.cs" />
+    <Compile Include="Assets\Generator\CoinOnUi.cs" />
     <Compile Include="Assets\Scripts\Enemy Mechanics and AI\IEnemyState.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Player Mechanics\PlayerAttack.cs" />
